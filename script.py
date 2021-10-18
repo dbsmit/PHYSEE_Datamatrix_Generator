@@ -16,8 +16,8 @@ class PlaceDatamatricesInTemplate():
     
     def __init__(self):
         load_dotenv(find_dotenv())
-        self.printername = 'Microsoft Print to PDF'
-        self.inkscapepath = r"C:\Program Files\Inkscape\bin\inkscape.exe"
+        self.printername = os.getenv("PRINTER_NAME")  #'Microsoft Print to PDF'
+        self.inkscapepath = os.getenv("INKSCAPE_PATH")#r"C:\Program Files\Inkscape\bin\inkscape.exe"
         self.templatesvg = 'template.svg'
         self.connection_string = os.getenv("AZURE_TABLESTORAGE_CONNECTION_STRING")
         maindir = pathlib.Path(__file__).parent.resolve()
