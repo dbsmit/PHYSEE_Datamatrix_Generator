@@ -46,7 +46,7 @@ class PlaceDatamatricesInTemplate():
 
         num_replacements = 30
         first = self.azure_table_get_first_and_update(num_replacements)
-        DmGen = datamatrix_generator.DmGenerator(first, num_replacements, "#0000FF")
+        DmGen = datamatrix_generator.DmGenerator(first, num_replacements, "#000000")
         # path = ET.Element("path")
         # ET.SubElement(g, "path")
 

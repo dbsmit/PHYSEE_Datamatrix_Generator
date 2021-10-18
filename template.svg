@@ -13,7 +13,7 @@
    version="1.1"
    id="svg8"
    inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
-   sodipodi:docname="template.svg">
+   sodipodi:docname="template_example.svg">
   <defs
      id="defs2" />
   <sodipodi:namedview
@@ -24,16 +24,16 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.35"
-     inkscape:cx="-150"
+     inkscape:cx="400"
      inkscape:cy="560"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
      showgrid="false"
-     inkscape:window-width="1680"
-     inkscape:window-height="987"
-     inkscape:window-x="2992"
-     inkscape:window-y="13"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="1072"
+     inkscape:window-y="-2"
      inkscape:window-maximized="1" />
   <metadata
      id="metadata5">
@@ -52,18 +52,70 @@
      inkscape:groupmode="layer"
      id="layer1">
     <rect
-       style="fill:#000000;stroke:#0000ff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none"
-       id="rect10"
-       width="89"
-       height="89"
-       x="47.625"
-       y="54.42857" />
+       style="fill:#000000;stroke:#0000ff;stroke-width:0"
+       id="rect833"
+       width="40"
+       height="40"
+       x="43.845238"
+       y="89.202377" />
     <rect
-       style="fill:#000000;stroke:#0000ff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none"
-       id="rect10-3"
-       width="42.886906"
-       height="42.886906"
-       x="71.916664"
-       y="226.13095" />
+       style="fill:#000000;stroke:#0000ff;stroke-width:0"
+       id="rect833-3"
+       width="40"
+       height="40"
+       x="127.33511"
+       y="93.922028" />
+    <rect
+       style="fill:#000000;stroke:#0000ff;stroke-width:0"
+       id="rect833-3-8"
+       width="40"
+       height="40"
+       x="35.184525"
+       y="163.69643" />
+    <rect
+       style="fill:#000000;stroke:#0000ff;stroke-width:0"
+       id="rect833-3-3"
+       width="40"
+       height="40"
+       x="111.53571"
+       y="181.08334" />
+    <ellipse
+       style="fill:#c80000;stroke:#a100ff;stroke-width:0;stroke-opacity:1;fill-opacity:1"
+       id="path871"
+       cx="40.443455"
+       cy="42.333332"
+       rx="23.8125"
+       ry="18.142857" />
+    <text
+       xml:space="preserve"
+       style="font-size:10.5833px;line-height:1.25;font-family:sans-serif;word-spacing:0px;stroke-width:0.264583"
+       x="72.571434"
+       y="15.875"
+       id="text875"><tspan
+         sodipodi:role="line"
+         id="tspan873"
+         x="72.571434"
+         y="15.875"
+         style="stroke-width:0.264583">Alle vierkanten worden</tspan><tspan
+         sodipodi:role="line"
+         x="72.571434"
+         y="29.104124"
+         style="stroke-width:0.264583"
+         id="tspan883">vervangen</tspan><tspan
+         sodipodi:role="line"
+         x="72.571434"
+         y="42.333248"
+         style="stroke-width:0.264583"
+         id="tspan877">door data matrices, </tspan><tspan
+         sodipodi:role="line"
+         x="72.571434"
+         y="55.562374"
+         style="stroke-width:0.264583"
+         id="tspan879">deze tekst en het ovaal </tspan><tspan
+         sodipodi:role="line"
+         x="72.571434"
+         y="68.791496"
+         style="stroke-width:0.264583"
+         id="tspan881">blijven onaangetast</tspan></text>
   </g>
 </svg>
