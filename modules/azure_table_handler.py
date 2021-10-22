@@ -14,6 +14,7 @@ class AzureTableHandler():
 
         self.connection_string = connection_string
         self.table_name = "datamatrixNextValue"
+        #In the table two NextValues are stored. One with partition_key and row_key TEST, and one with partition_key and row_key PRODUCTION. In this way test runs do not affect production codes.
         self.partition_key = mode
         self.row_key = mode
         self.table_client = TableClient.from_connection_string(self.connection_string, table_name=self.table_name)
@@ -31,6 +32,7 @@ class AzureTableHandler():
         return entity['NextCode']
 
     def update_datamatrix_code(self, newvalue):
+         #Update the key value pair in TEST or PRODUCTION Partition/Row. This must be done before doing any replacements, to ensure uniqueness even in the event of a crash. 
         entity = {
             "PartitionKey" : f"{self.partition_key}",
             "RowKey" : f"{self.row_key}",

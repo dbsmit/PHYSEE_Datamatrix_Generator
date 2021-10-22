@@ -6,6 +6,7 @@ Table of Contents:
 -OUTPUT AND LOGGING
 -TEMPLATE FILE RULES
 -INSTALLATION
+-CONFIGURATION
 -DISCLAIMER
 
 ____________________________________
@@ -60,8 +61,22 @@ Installation is best done by a python developer.
 
 Github repository: https://github.com/dbsmit/PHYSEE_Datamatrix_generator
 
+1 Make sure to have python installed
+2 Make a folder for the application and clone or copy the repository. If you have git installed in prompt:  git clone https://github.com/dbsmit/PHYSEE_Datamatrix_generator
+3 Create a virtual environment (python3 -m venv [Path/to/application/folder]/venv
+4 Install requirements using pip (pip install -r requirements.txt). Solve any issues.
+5 Move on to configuration
 
-wmic printer list brief
+____________________________________
+###CONFIGURATION###
+____________________________________
+1 Make sure to have a storage account in an appropriately named resource group on Azure. 
+2 Create a file called .env in the same directory as script.py
+3 Copy the contents of template env into the .env file
+4 Replace the appropriate values. You can find the Azure connection string in the Azure environment for the Physee Datamatrix Generator under keys
+5 You can find a list of printers with command "wmic printer list brief" to find the PRINTER_NAME for the .env file
+6 Create easy to use and appropriately named .bat files (and perhaps shortcuts) using the template bat. For example a file called Generate_Matrices_TEST_ToInkscape.bat that runs the command "script.py --test --target=toinkscape"
+
 
 ____________________________________
 ###DISCLAIMER###

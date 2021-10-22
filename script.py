@@ -4,6 +4,15 @@ from logging.handlers import RotatingFileHandler
 import os
 from modules.template_replacer import PlaceDatamatricesInTemplate
 
+
+
+# This script was produced by Excelnerd.py for PHYSEE SENSE
+# Github repository: https://github.com/dbsmit/PHYSEE_Datamatrix_generator
+# Read README.txt for installation and operation
+# def main calls the method convert_template from class PlaceDatamatricesInTemplate in modules/template_replacer.
+ 
+
+
 logger = logging.getLogger(__name__)
 log_dir = os.path.join(os.path.normpath(os.getcwd()), 'logs')
 log_fname = os.path.join(log_dir, 'log')
@@ -42,6 +51,7 @@ def main(argv):
     target = None
     for longopt, arg in longopts:
         if longopt == ('--test'):
+            #In the table two NextValues are stored. One with partition_key and row_key TEST, and one with partition_key and row_key PRODUCTION. In this way test runs do not affect production codes.
             logger.info('\n\n### TEST mode is enabled. Last code will be retrieved from and updated to test key in azure, not production. DO NOT USE THIS OUTPUT FOR PRODUCTION PURPOSES. ### \n\n')
             is_test = True
         elif longopt == ('--target'):

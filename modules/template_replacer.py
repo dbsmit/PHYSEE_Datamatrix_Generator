@@ -65,6 +65,7 @@ class PlaceDatamatricesInTemplate():
         return first_code
 
     def get_rects(self, template_namespace):
+        #Get an array with all black square rectangles. Raise errors if appropriate.
         rects = []
         for rect in self.template_root.iter(f'{template_namespace}rect'):
                 if rect.attrib['style'].find(f'fill:{self.dmcolor}') >= 0:
@@ -82,6 +83,7 @@ class PlaceDatamatricesInTemplate():
         return rects
 
     def add_test_layer(self, template_namespace):
+        #this method adds a layer over the output file if mode is TEST. 
         g = ET.Element(f'{template_namespace}g')
         text = ET.SubElement(g, "text")
         text.set("style", "font-size:10.5833mm;line-height:1.25;font-family:sans-serif;word-spacing:0px;stroke-width:0.264583")
@@ -98,6 +100,9 @@ class PlaceDatamatricesInTemplate():
         self.template_root.append(g)
 
     def convert_template(self):
+        #This method is at the center of this application
+        #It builds an lxml object from the template, counts the black squares, calls and updates the next value on Azure and replaces the squares by datamatrices
+        #output is saved in /output_files
         template = self.templatesvg
         template_tree = ET.parse(template)
         self.template_root = template_tree.getroot()
@@ -111,8 +116,8 @@ class PlaceDatamatricesInTemplate():
 
         num_replacements = len(rects)
         logging.info(f'Number of datamatrices to be generated: {num_replacements}')
-        first = self.azure_table_get_first_and_update(num_replacements)
-        DmGen = datamatrix_generator.DmGenerator(first, num_replacements, "#000000")
+        first = self.azure_table_get_first_and_update(num_replacements)                             #Get the next value from azure and also update this key_value pair. In that way the uniqueness of values is guaranteed even in case of a crash
+        DmGen = datamatrix_generator.DmGenerator(first, num_replacements, "#000000")                #INITIALIZE THE DATAMATRIX GENERATOR
 
         if self.is_test: self.add_test_layer(template_namespace)
               
