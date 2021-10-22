@@ -2,9 +2,11 @@ from ppf.datamatrix import DataMatrix
 from IPython.display import SVG, display
 from lxml import etree as ET
 from lxml.etree import fromstring
+import logging
+
+logger = logging.getLogger(__name__)
 
 class DmGenerator():
-
 
     def __init__(self, first_code, num_codes, fg):
 
@@ -15,9 +17,13 @@ class DmGenerator():
 
     def gen_next(self):
         num = self.first_code
+        codes_generated = 0
         while True:
+            codes_generated += 1
+            if codes_generated > self.num_codes: raise ValueError('CRITICAL: Somehow the script is trying to produce more datamatrices than were reserved in the Azure Table Service. To protect this service from generating duplicate codes the script has shut down.')
             yield num
             num += 1
+           
 
     def gen_datamatrix(self, d, x , y):
 

@@ -1,3 +1,78 @@
+#%%
+
+#THE FOLLOWING HANDLER EXECUTES SOME BASIC TABLE ADMINISTRATION TASKS
+
+from azure.data.tables import TableClient
+from azure.data.tables import UpdateMode
+from azure.storage.table import TableService, Entity
+from azure.core import MatchConditions
+import logging
+
+class AzureTableHandler():
+
+    def __init__(self):
+
+        self.connection_string = 'DefaultEndpointsProtocol=https;AccountName=steuwsenseswwmatrixtool;AccountKey=kH+TLjWl3JOhiM+pAHOuRBfnn7Wj4I2xgBB9hwt132Jq+aRi8nm6J0R3DJTVnlR+d/3zH3xE0NZc+5Ge9VdLUQ==;EndpointSuffix=core.windows.net'
+        self.table_name = "datamatrixNextValue"
+        self.partition_key = 'TEST'
+        self.row_key = 'TEST'
+        self.table_service = TableService(connection_string = self.connection_string)
+        # self.table_client = TableClient.from_connection_string(self.connection_string, table_name=self.table_name)
+
+
+
+
+    def create_table(self):
+        self.table_service.create_table(self.table_name)
+
+    
+    def insert_entity(self, key):
+        entity = {
+            "PartitionKey" : f"{key}",
+            "RowKey" : f"{key}",
+            "NextCode" : f"000000"
+        }
+        self.table_service.insert_entity(table_name = self.table_name, entity = entity)
+
+
+    def get_datamatrix_code(self):
+        entity = self.table_client.get_entity(partition_key=self.partition_key, row_key=self.row_key)
+        self.etag = entity._metadata["etag"]
+        
+        return entity['NextCode']
+
+    def update_datamatrix_code(self, newvalue):
+        entity = {
+            "PartitionKey" : f"{self.partition_key}",
+            "RowKey" : f"{self.row_key}",
+            "NextCode" : f"{newvalue}"
+        }
+ 
+        result = self.table_client.update_entity(mode=UpdateMode.REPLACE, entity = entity, etag = self.etag, match_condition=MatchConditions.IfNotModified)
+        return(result)
+
+
+
+
+#%%
+# Insert OR UPDATENew datamatrix test code, the partition key set in the TH object (disabled to prevent accidental overrides)
+TH = AzureTableHandler()
+print(TH.get_datamatrix_code())
+# print(str(TH.update_datamatrix_code('000000')))
+
+
+#%%
+#Create table (disabled to prevent accidental overwrites)
+TH = AzureTableHandler()
+# TH.create_table()
+
+#%%
+#Insert TEST and PRODUCTION keys
+TH = AzureTableHandler()
+# TH.insert_entity("TEST")
+# TH.insert_entity("PRODUCTION")
+
+
 # %%
 from ppf.datamatrix import DataMatrix
 from IPython.display import SVG, display
@@ -12,7 +87,43 @@ f = open(filename, "w")
 f.write(myDataMatrix.svg())
 f.close()
 
+# %%
+from azure.data.tables import TableClient
+from azure.data.tables import UpdateMode
+from azure.core import MatchConditions
+from azure.core.exceptions import ResourceModifiedError
+import logging
 
+class AzureTableHandler():
+
+    def __init__(self, connection_string):
+
+        self.connection_string = 'DefaultEndpointsProtocol=https;AccountName=datamatrixstorage;AccountKey=7Z6+Ox0FWQz/pAWPheLLUxpLI8ZLepMDb/rP8R4tD4FQD+Ie1mGz6nxtn+MoomJ1FnEXNjA+m3QI+GRv0ycZnA==;EndpointSuffix=core.windows.net'
+        self.table_name = "datamatrixLastValue"
+        self.partition_key = '1'
+        self.row_key = '1'
+        self.table_client = TableClient.from_connection_string(self.connection_string, table_name=self.table_name)
+
+
+    def get_datamatrix_code(self):
+        entity = self.table_client.get_entity(partition_key='1', row_key='1')
+        self.etag = entity._metadata["etag"]
+        print(entity)
+        return entity['LastCode']
+
+    def update_datamatrix_code(self, newvalue):
+        entity = {
+            "PartitionKey" : f"{self.partition_key}",
+            "RowKey" : f"{self.row_key}",
+            "LastCode" : f"{newvalue}"
+        }
+
+            result = self.table_client.update_entity(mode=UpdateMode.REPLACE, entity = entity, etag = self.etag, match_condition=MatchConditions.IfNotModified)
+
+        print(result)
+TH = AzureTableHandler()
+print(TH.get_datamatrix_code)
+print(TH.update_datamatrix_code(''))
 
 #%%
 from ppf.datamatrix import DataMatrix

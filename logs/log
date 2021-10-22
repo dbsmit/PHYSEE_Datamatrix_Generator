@@ -1,0 +1,2658 @@
+2021-10-21 12:19:53,549 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 12:19:53,551 - dotenv.main - WARNING - Python-dotenv could not parse statement starting at line 2
+2021-10-21 12:19:53,559 - modules.azure_table_handler - INFO - Azure table handler
+2021-10-21 12:19:53,888 - __main__ - INFO - 
+
+ ### Script ends, success = True ### 
+
+
+2021-10-21 12:23:53,979 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 12:23:53,990 - dotenv.main - WARNING - Python-dotenv could not parse statement starting at line 2
+2021-10-21 12:23:53,998 - modules.azure_table_handler - INFO - Azure table handler
+2021-10-21 12:23:54,267 - __main__ - ERROR - Unhandled exception
+Traceback (most recent call last):
+  File "script.py", line 146, in main
+    if target == 'toprinter': DmReplacer.send_to_printer()
+  File "script.py", line 98, in send_to_printer
+    win32api.ShellExecute (0, "print", self.output_file, self.printername, ".", 0)
+pywintypes.error: (31, 'ShellExecute', 'A device attached to the system is not functioning.')
+2021-10-21 12:23:54,270 - __main__ - INFO - 
+
+ ### Script ends, success = False ### 
+
+
+2021-10-21 12:31:13,005 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 12:31:13,012 - dotenv.main - WARNING - Python-dotenv could not parse statement starting at line 2
+2021-10-21 12:31:13,028 - modules.azure_table_handler - INFO - Azure table handler
+2021-10-21 12:31:13,307 - __main__ - ERROR - Unhandled exception
+Traceback (most recent call last):
+  File "script.py", line 146, in main
+    if target == 'toprinter': DmReplacer.send_to_printer()
+  File "script.py", line 98, in send_to_printer
+    win32api.ShellExecute (0, "print", self.output_file, self.printername, ".", 0)
+pywintypes.error: (31, 'ShellExecute', 'A device attached to the system is not functioning.')
+2021-10-21 12:31:13,309 - __main__ - INFO - 
+
+ ### Script ends, success = False ### 
+
+
+2021-10-21 12:31:22,824 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 12:31:22,826 - dotenv.main - WARNING - Python-dotenv could not parse statement starting at line 2
+2021-10-21 12:31:22,833 - modules.azure_table_handler - INFO - Azure table handler
+2021-10-21 12:31:23,107 - __main__ - INFO - 
+
+ ### Script ends, success = True ### 
+
+
+2021-10-21 12:51:40,434 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 12:51:40,435 - __main__ - ERROR - Unhandled exception
+Traceback (most recent call last):
+  File "script.py", line 145, in main
+    DmReplacer = PlaceDatamatricesInTemplate(is_test, target)
+TypeError: __init__() takes 2 positional arguments but 3 were given
+2021-10-21 12:51:40,437 - __main__ - INFO - 
+
+ ### Script ends, success = False ### 
+
+
+2021-10-21 12:52:04,641 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 12:52:04,644 - dotenv.main - WARNING - Python-dotenv could not parse statement starting at line 2
+2021-10-21 12:52:04,653 - modules.azure_table_handler - INFO - Azure table handler
+2021-10-21 12:52:04,969 - __main__ - INFO - 
+
+ ### Script ends, success = True ### 
+
+
+2021-10-21 12:52:28,618 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 12:52:28,619 - __main__ - ERROR - option --target requires argument
+2021-10-21 12:52:39,474 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 12:52:39,476 - dotenv.main - WARNING - Python-dotenv could not parse statement starting at line 2
+2021-10-21 12:52:39,477 - __main__ - ERROR - Target was not specified. Script has not run.
+2021-10-21 12:52:39,484 - modules.azure_table_handler - INFO - Azure table handler
+2021-10-21 12:52:39,674 - __main__ - INFO - 
+
+ ### Script ends, success = True ### 
+
+
+2021-10-21 12:53:05,944 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 12:53:05,946 - dotenv.main - WARNING - Python-dotenv could not parse statement starting at line 2
+2021-10-21 12:53:05,947 - __main__ - ERROR - Target was not specified. Script has not run.
+2021-10-21 12:54:10,568 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 12:54:10,570 - dotenv.main - WARNING - Python-dotenv could not parse statement starting at line 2
+2021-10-21 12:54:10,572 - __main__ - ERROR - Target was not specified. Script has not run.
+2021-10-21 12:54:43,579 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 12:54:43,581 - dotenv.main - WARNING - Python-dotenv could not parse statement starting at line 2
+2021-10-21 12:54:43,582 - __main__ - ERROR - Target was not specified. Script has not run.
+2021-10-21 12:54:58,953 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 12:54:58,955 - dotenv.main - WARNING - Python-dotenv could not parse statement starting at line 2
+2021-10-21 12:54:58,962 - modules.azure_table_handler - INFO - Azure table handler
+2021-10-21 12:54:59,272 - __main__ - INFO - 
+
+ ### Script ends, success = True ### 
+
+
+2021-10-21 13:18:27,741 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 13:18:27,743 - dotenv.main - WARNING - Python-dotenv could not parse statement starting at line 2
+2021-10-21 13:18:27,753 - modules.azure_table_handler - INFO - Azure table handler
+2021-10-21 13:18:27,924 - __main__ - ERROR - Unhandled exception
+Traceback (most recent call last):
+  File "script.py", line 153, in main
+    DmReplacer.convert_template()
+  File "script.py", line 65, in convert_template
+    first = self.azure_table_get_first_and_update(num_replacements)
+  File "script.py", line 47, in azure_table_get_first_and_update
+    ath.update_datamatrix_code(next_code)
+TypeError: update_datamatrix_code() missing 1 required positional argument: 'etag'
+2021-10-21 13:18:27,929 - __main__ - INFO - 
+
+ ### Script ends, success = False ### 
+
+
+2021-10-21 13:18:38,723 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 13:18:38,725 - dotenv.main - WARNING - Python-dotenv could not parse statement starting at line 2
+2021-10-21 13:18:38,734 - modules.azure_table_handler - INFO - Azure table handler
+2021-10-21 13:18:38,997 - __main__ - INFO - 
+
+ ### Script ends, success = True ### 
+
+
+2021-10-21 13:20:42,800 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 13:20:42,803 - dotenv.main - WARNING - Python-dotenv could not parse statement starting at line 2
+2021-10-21 13:20:42,811 - modules.azure_table_handler - INFO - Azure table handler
+2021-10-21 13:20:43,125 - __main__ - INFO - 
+
+ ### Script ends, success = True ### 
+
+
+2021-10-21 13:21:41,103 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 13:21:41,107 - dotenv.main - WARNING - Python-dotenv could not parse statement starting at line 2
+2021-10-21 13:21:41,108 - __main__ - ERROR - Target was not specified. Script has not run.
+2021-10-21 13:25:26,935 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 13:25:26,939 - dotenv.main - WARNING - Python-dotenv could not parse statement starting at line 2
+2021-10-21 13:25:26,942 - __main__ - ERROR - Target was not specified. Script has not run.
+2021-10-21 13:28:34,378 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 13:28:34,380 - __main__ - ERROR - Argument for target not recognized. Script has not run.
+2021-10-21 13:28:43,166 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 13:28:43,168 - __main__ - ERROR - Argument for target not recognized. Script has not run.
+2021-10-21 13:31:37,603 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 13:31:37,607 - dotenv.main - WARNING - Python-dotenv could not parse statement starting at line 2
+2021-10-21 13:31:37,619 - modules.azure_table_handler - INFO - Azure table handler
+2021-10-21 13:31:38,001 - __main__ - INFO - 
+
+ ### Script ends, success = True ### 
+
+
+2021-10-21 13:32:25,524 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 13:32:25,528 - dotenv.main - WARNING - Python-dotenv could not parse statement starting at line 2
+2021-10-21 13:32:25,538 - modules.azure_table_handler - INFO - Azure table handler
+2021-10-21 13:32:25,860 - __main__ - INFO - 
+
+ ### Script ends, success = True ### 
+
+
+2021-10-21 13:32:57,958 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 13:32:57,962 - dotenv.main - WARNING - Python-dotenv could not parse statement starting at line 2
+2021-10-21 13:32:57,975 - modules.azure_table_handler - INFO - Azure table handler
+2021-10-21 13:32:58,326 - __main__ - INFO - 
+
+ ### Script ends, success = True ### 
+
+
+2021-10-21 13:33:16,176 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 13:33:16,180 - dotenv.main - WARNING - Python-dotenv could not parse statement starting at line 2
+2021-10-21 13:33:16,195 - modules.azure_table_handler - INFO - Azure table handler
+2021-10-21 13:33:16,539 - __main__ - INFO - 
+
+ ### Script ends, success = True ### 
+
+
+2021-10-21 13:34:06,701 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 13:34:06,705 - dotenv.main - WARNING - Python-dotenv could not parse statement starting at line 2
+2021-10-21 13:34:06,716 - modules.azure_table_handler - INFO - Azure table handler
+2021-10-21 13:34:07,080 - __main__ - INFO - 
+
+ ### Script ends, success = True ### 
+
+
+2021-10-21 13:36:23,656 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 13:36:23,661 - dotenv.main - WARNING - Python-dotenv could not parse statement starting at line 2
+2021-10-21 13:36:23,679 - modules.azure_table_handler - INFO - Azure table handler
+2021-10-21 13:36:23,996 - __main__ - ERROR - Unhandled exception
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\script.py", line 153, in main
+    DmReplacer.convert_template()
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\script.py", line 65, in convert_template
+    first = self.azure_table_get_first_and_update(num_replacements)
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\script.py", line 47, in azure_table_get_first_and_update
+    ath.update_datamatrix_code(next_code)
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\modules\azure_table_handler.py", line 35, in update_datamatrix_code
+    self.table_client.update_entity(mode=UpdateMode.REPLACE, entity = entity, match_condition=MatchConditions.IfNotModified)
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\venv\lib\site-packages\azure\core\tracing\decorator.py", line 83, in wrapper_use_tracer
+    return func(*args, **kwargs)
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\venv\lib\site-packages\azure\data\tables\_table_client.py", line 460, in update_entity
+    match_condition=match_condition or MatchConditions.Unconditionally,
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\venv\lib\site-packages\azure\data\tables\_serialize.py", line 26, in _get_match_headers
+    raise ValueError("IfNotModified must be specified with etag.")
+ValueError: IfNotModified must be specified with etag.
+2021-10-21 13:36:24,029 - __main__ - INFO - 
+
+ ### Script ends, success = False ### 
+
+
+2021-10-21 13:36:48,796 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 13:36:48,800 - dotenv.main - WARNING - Python-dotenv could not parse statement starting at line 2
+2021-10-21 13:36:48,811 - modules.azure_table_handler - INFO - Azure table handler
+2021-10-21 13:36:48,986 - __main__ - ERROR - Unhandled exception
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\script.py", line 153, in main
+    DmReplacer.convert_template()
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\script.py", line 65, in convert_template
+    first = self.azure_table_get_first_and_update(num_replacements)
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\script.py", line 47, in azure_table_get_first_and_update
+    ath.update_datamatrix_code(next_code)
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\modules\azure_table_handler.py", line 35, in update_datamatrix_code
+    self.table_client.update_entity(mode=UpdateMode.REPLACE, entity = entity, match_condition=MatchConditions.IfNotModified)
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\venv\lib\site-packages\azure\core\tracing\decorator.py", line 83, in wrapper_use_tracer
+    return func(*args, **kwargs)
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\venv\lib\site-packages\azure\data\tables\_table_client.py", line 460, in update_entity
+    match_condition=match_condition or MatchConditions.Unconditionally,
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\venv\lib\site-packages\azure\data\tables\_serialize.py", line 26, in _get_match_headers
+    raise ValueError("IfNotModified must be specified with etag.")
+ValueError: IfNotModified must be specified with etag.
+2021-10-21 13:36:48,996 - __main__ - INFO - 
+
+ ### Script ends, success = False ### 
+
+
+2021-10-21 13:37:49,073 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 13:37:49,077 - dotenv.main - WARNING - Python-dotenv could not parse statement starting at line 2
+2021-10-21 13:37:49,090 - modules.azure_table_handler - INFO - Azure table handler
+2021-10-21 13:37:49,481 - __main__ - INFO - 
+
+ ### Script ends, success = True ### 
+
+
+2021-10-21 14:02:24,478 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 14:02:24,483 - dotenv.main - WARNING - Python-dotenv could not parse statement starting at line 2
+2021-10-21 14:02:24,501 - modules.azure_table_handler - INFO - Azure table handler
+2021-10-21 14:02:25,313 - __main__ - INFO - 
+
+ ### Script ends, success = True ### 
+
+
+2021-10-21 14:04:43,336 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 14:04:43,340 - dotenv.main - WARNING - Python-dotenv could not parse statement starting at line 2
+2021-10-21 14:04:43,350 - modules.azure_table_handler - INFO - Azure table handler
+2021-10-21 14:04:56,885 - __main__ - ERROR - Unhandled exception
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\venv\lib\site-packages\azure\data\tables\_table_client.py", line 477, in update_entity
+    **kwargs
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\venv\lib\site-packages\azure\data\tables\_generated\operations\_table_operations.py", line 598, in update_entity
+    raise HttpResponseError(response=response, model=error)
+azure.core.exceptions.HttpResponseError: Operation returned an invalid status 'Precondition Failed'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\script.py", line 153, in main
+    DmReplacer.convert_template()
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\script.py", line 65, in convert_template
+    first = self.azure_table_get_first_and_update(num_replacements)
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\script.py", line 47, in azure_table_get_first_and_update
+    ath.update_datamatrix_code(next_code)
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\modules\azure_table_handler.py", line 34, in update_datamatrix_code
+    self.table_client.update_entity(mode=UpdateMode.REPLACE, entity = entity, etag = self.etag, match_condition=MatchConditions.IfNotModified)
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\venv\lib\site-packages\azure\core\tracing\decorator.py", line 83, in wrapper_use_tracer
+    return func(*args, **kwargs)
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\venv\lib\site-packages\azure\data\tables\_table_client.py", line 492, in update_entity
+    _process_table_error(error)
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\venv\lib\site-packages\azure\data\tables\_error.py", line 153, in _process_table_error
+    _reraise_error(decoded_error)
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\venv\lib\site-packages\azure\data\tables\_error.py", line 145, in _reraise_error
+    raise decoded_error.with_traceback(exc_traceback)
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\venv\lib\site-packages\azure\data\tables\_table_client.py", line 477, in update_entity
+    **kwargs
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\venv\lib\site-packages\azure\data\tables\_generated\operations\_table_operations.py", line 598, in update_entity
+    raise HttpResponseError(response=response, model=error)
+azure.core.exceptions.ResourceModifiedError: The update condition specified in the request was not satisfied.
+RequestId:114e66f2-d002-000f-5973-c60c2e000000
+Time:2021-10-21T12:04:55.9643212Z
+ErrorCode:UpdateConditionNotSatisfied
+2021-10-21 14:04:56,948 - __main__ - INFO - 
+
+ ### Script ends, success = False ### 
+
+
+2021-10-21 14:13:26,712 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 14:13:26,716 - dotenv.main - WARNING - Python-dotenv could not parse statement starting at line 2
+2021-10-21 14:13:26,725 - modules.azure_table_handler - INFO - Azure table handler
+2021-10-21 14:13:43,008 - root - ERROR - The update condition specified in the request was not satisfied.
+RequestId:88dbfc9e-9002-0031-6275-c69b51000000
+Time:2021-10-21T12:13:42.0915834Z
+ErrorCode:UpdateConditionNotSatisfied 
+
+ Something went wrong while trying to update the Azure Table with a new value. Do you have internet? Has the Azure service been modified?
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\venv\lib\site-packages\azure\data\tables\_table_client.py", line 477, in update_entity
+    **kwargs
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\venv\lib\site-packages\azure\data\tables\_generated\operations\_table_operations.py", line 598, in update_entity
+    raise HttpResponseError(response=response, model=error)
+azure.core.exceptions.HttpResponseError: Operation returned an invalid status 'Precondition Failed'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\modules\azure_table_handler.py", line 35, in update_datamatrix_code
+    result = logger.info(self.table_client.update_entity(mode=UpdateMode.REPLACE, entity = entity, etag = self.etag, match_condition=MatchConditions.IfNotModified))
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\venv\lib\site-packages\azure\core\tracing\decorator.py", line 83, in wrapper_use_tracer
+    return func(*args, **kwargs)
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\venv\lib\site-packages\azure\data\tables\_table_client.py", line 492, in update_entity
+    _process_table_error(error)
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\venv\lib\site-packages\azure\data\tables\_error.py", line 153, in _process_table_error
+    _reraise_error(decoded_error)
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\venv\lib\site-packages\azure\data\tables\_error.py", line 145, in _reraise_error
+    raise decoded_error.with_traceback(exc_traceback)
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\venv\lib\site-packages\azure\data\tables\_table_client.py", line 477, in update_entity
+    **kwargs
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\venv\lib\site-packages\azure\data\tables\_generated\operations\_table_operations.py", line 598, in update_entity
+    raise HttpResponseError(response=response, model=error)
+azure.core.exceptions.ResourceModifiedError: The update condition specified in the request was not satisfied.
+RequestId:88dbfc9e-9002-0031-6275-c69b51000000
+Time:2021-10-21T12:13:42.0915834Z
+ErrorCode:UpdateConditionNotSatisfied
+2021-10-21 14:13:43,021 - __main__ - ERROR - Unhandled exception
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\venv\lib\site-packages\azure\data\tables\_table_client.py", line 477, in update_entity
+    **kwargs
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\venv\lib\site-packages\azure\data\tables\_generated\operations\_table_operations.py", line 598, in update_entity
+    raise HttpResponseError(response=response, model=error)
+azure.core.exceptions.HttpResponseError: Operation returned an invalid status 'Precondition Failed'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\script.py", line 153, in main
+    DmReplacer.convert_template()
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\script.py", line 65, in convert_template
+    first = self.azure_table_get_first_and_update(num_replacements)
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\script.py", line 47, in azure_table_get_first_and_update
+    ath.update_datamatrix_code(next_code)
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\modules\azure_table_handler.py", line 41, in update_datamatrix_code
+    raise e
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\modules\azure_table_handler.py", line 35, in update_datamatrix_code
+    result = logger.info(self.table_client.update_entity(mode=UpdateMode.REPLACE, entity = entity, etag = self.etag, match_condition=MatchConditions.IfNotModified))
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\venv\lib\site-packages\azure\core\tracing\decorator.py", line 83, in wrapper_use_tracer
+    return func(*args, **kwargs)
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\venv\lib\site-packages\azure\data\tables\_table_client.py", line 492, in update_entity
+    _process_table_error(error)
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\venv\lib\site-packages\azure\data\tables\_error.py", line 153, in _process_table_error
+    _reraise_error(decoded_error)
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\venv\lib\site-packages\azure\data\tables\_error.py", line 145, in _reraise_error
+    raise decoded_error.with_traceback(exc_traceback)
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\venv\lib\site-packages\azure\data\tables\_table_client.py", line 477, in update_entity
+    **kwargs
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\venv\lib\site-packages\azure\data\tables\_generated\operations\_table_operations.py", line 598, in update_entity
+    raise HttpResponseError(response=response, model=error)
+azure.core.exceptions.ResourceModifiedError: The update condition specified in the request was not satisfied.
+RequestId:88dbfc9e-9002-0031-6275-c69b51000000
+Time:2021-10-21T12:13:42.0915834Z
+ErrorCode:UpdateConditionNotSatisfied
+2021-10-21 14:13:43,033 - __main__ - INFO - 
+
+ ### Script ends, success = False ### 
+
+
+2021-10-21 14:15:36,898 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 14:15:36,905 - dotenv.main - WARNING - Python-dotenv could not parse statement starting at line 2
+2021-10-21 14:15:36,924 - modules.azure_table_handler - INFO - Azure table handler
+2021-10-21 14:15:48,545 - root - ERROR - The update condition specified in the request was not satisfied.
+RequestId:406f71dc-8002-004f-3b75-c60b16000000
+Time:2021-10-21T12:15:47.6259883Z
+ErrorCode:UpdateConditionNotSatisfied 
+
+ Something went wrong while trying to update the Azure Table with a new value. Do you have internet? Has the Azure service been modified?
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\venv\lib\site-packages\azure\data\tables\_table_client.py", line 477, in update_entity
+    **kwargs
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\venv\lib\site-packages\azure\data\tables\_generated\operations\_table_operations.py", line 598, in update_entity
+    raise HttpResponseError(response=response, model=error)
+azure.core.exceptions.HttpResponseError: Operation returned an invalid status 'Precondition Failed'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\modules\azure_table_handler.py", line 35, in update_datamatrix_code
+    result = logger.info(self.table_client.update_entity(mode=UpdateMode.REPLACE, entity = entity, etag = self.etag, match_condition=MatchConditions.IfNotModified))
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\venv\lib\site-packages\azure\core\tracing\decorator.py", line 83, in wrapper_use_tracer
+    return func(*args, **kwargs)
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\venv\lib\site-packages\azure\data\tables\_table_client.py", line 492, in update_entity
+    _process_table_error(error)
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\venv\lib\site-packages\azure\data\tables\_error.py", line 153, in _process_table_error
+    _reraise_error(decoded_error)
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\venv\lib\site-packages\azure\data\tables\_error.py", line 145, in _reraise_error
+    raise decoded_error.with_traceback(exc_traceback)
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\venv\lib\site-packages\azure\data\tables\_table_client.py", line 477, in update_entity
+    **kwargs
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\venv\lib\site-packages\azure\data\tables\_generated\operations\_table_operations.py", line 598, in update_entity
+    raise HttpResponseError(response=response, model=error)
+azure.core.exceptions.ResourceModifiedError: The update condition specified in the request was not satisfied.
+RequestId:406f71dc-8002-004f-3b75-c60b16000000
+Time:2021-10-21T12:15:47.6259883Z
+ErrorCode:UpdateConditionNotSatisfied
+2021-10-21 14:15:48,556 - __main__ - ERROR - Unhandled exception
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\script.py", line 153, in main
+    DmReplacer.convert_template()
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\script.py", line 65, in convert_template
+    first = self.azure_table_get_first_and_update(num_replacements)
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\script.py", line 47, in azure_table_get_first_and_update
+    ath.update_datamatrix_code(next_code)
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\modules\azure_table_handler.py", line 41, in update_datamatrix_code
+    print(result)
+UnboundLocalError: local variable 'result' referenced before assignment
+2021-10-21 14:15:48,564 - __main__ - INFO - 
+
+ ### Script ends, success = False ### 
+
+
+2021-10-21 14:18:54,553 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 14:18:54,557 - dotenv.main - WARNING - Python-dotenv could not parse statement starting at line 2
+2021-10-21 14:18:54,567 - modules.azure_table_handler - INFO - Azure table handler
+2021-10-21 14:18:56,431 - modules.azure_table_handler - INFO - {'date': datetime.datetime(2021, 10, 21, 12, 18, 55, tzinfo=datetime.timezone.utc), 'etag': 'W/"datetime\'2021-10-21T12%3A18%3A55.5097852Z\'"', 'version': '2019-02-02'}
+2021-10-21 14:18:56,603 - __main__ - INFO - 
+
+ ### Script ends, success = True ### 
+
+
+2021-10-21 14:21:04,950 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 14:21:04,954 - dotenv.main - WARNING - Python-dotenv could not parse statement starting at line 2
+2021-10-21 14:21:04,967 - modules.azure_table_handler - INFO - Azure table handler
+2021-10-21 14:21:06,770 - modules.azure_table_handler - INFO - Azure Table Service Update {'date': datetime.datetime(2021, 10, 21, 12, 21, 5, tzinfo=datetime.timezone.utc), 'etag': 'W/"datetime\'2021-10-21T12%3A21%3A05.8510262Z\'"', 'version': '2019-02-02'}
+2021-10-21 14:21:06,969 - __main__ - INFO - 
+
+ ### Script ends, success = True ### 
+
+
+2021-10-21 14:23:18,353 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 14:23:18,357 - dotenv.main - WARNING - Python-dotenv could not parse statement starting at line 2
+2021-10-21 14:23:18,556 - root - INFO - Azure Table Service Entity Retrieved {'PartitionKey': '1', 'RowKey': '1', 'LastCode': '000213'}
+2021-10-21 14:23:26,188 - modules.azure_table_handler - INFO - Azure Table Service Update {'date': datetime.datetime(2021, 10, 21, 12, 23, 25, tzinfo=datetime.timezone.utc), 'etag': 'W/"datetime\'2021-10-21T12%3A23%3A25.2684999Z\'"', 'version': '2019-02-02'}
+2021-10-21 14:23:26,332 - __main__ - INFO - 
+
+ ### Script ends, success = True ### 
+
+
+2021-10-21 14:23:57,666 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 14:23:57,674 - dotenv.main - WARNING - Python-dotenv could not parse statement starting at line 2
+2021-10-21 14:23:57,883 - modules.azure_table_handler - INFO - Azure Table Service Entity Retrieved {'PartitionKey': '1', 'RowKey': '1', 'LastCode': '000244'}
+2021-10-21 14:24:01,892 - modules.azure_table_handler - INFO - Azure Table Service Update {'date': datetime.datetime(2021, 10, 21, 12, 24, tzinfo=datetime.timezone.utc), 'etag': 'W/"datetime\'2021-10-21T12%3A24%3A00.9726423Z\'"', 'version': '2019-02-02'}
+2021-10-21 14:24:02,043 - __main__ - INFO - 
+
+ ### Script ends, success = True ### 
+
+
+2021-10-21 14:25:42,161 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 14:25:42,165 - dotenv.main - WARNING - Python-dotenv could not parse statement starting at line 2
+2021-10-21 14:25:42,419 - modules.azure_table_handler - INFO - Azure Table Service Entity Retrieved {'PartitionKey': '1', 'RowKey': '1', 'LastCode': '000275'}
+2021-10-21 14:25:47,892 - root - ERROR - The update condition specified in the request was not satisfied.
+RequestId:32e6a801-c002-005e-2a76-c691a2000000
+Time:2021-10-21T12:25:46.9668370Z
+ErrorCode:UpdateConditionNotSatisfied 
+
+ Something went wrong while trying to update the Azure Table with a new value. Do you have internet? Has the Azure service been modified?
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\venv\lib\site-packages\azure\data\tables\_table_client.py", line 477, in update_entity
+    **kwargs
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\venv\lib\site-packages\azure\data\tables\_generated\operations\_table_operations.py", line 598, in update_entity
+    raise HttpResponseError(response=response, model=error)
+azure.core.exceptions.HttpResponseError: Operation returned an invalid status 'Precondition Failed'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\modules\azure_table_handler.py", line 35, in update_datamatrix_code
+    result = self.table_client.update_entity(mode=UpdateMode.REPLACE, entity = entity, etag = self.etag, match_condition=MatchConditions.IfNotModified)
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\venv\lib\site-packages\azure\core\tracing\decorator.py", line 83, in wrapper_use_tracer
+    return func(*args, **kwargs)
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\venv\lib\site-packages\azure\data\tables\_table_client.py", line 492, in update_entity
+    _process_table_error(error)
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\venv\lib\site-packages\azure\data\tables\_error.py", line 153, in _process_table_error
+    _reraise_error(decoded_error)
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\venv\lib\site-packages\azure\data\tables\_error.py", line 145, in _reraise_error
+    raise decoded_error.with_traceback(exc_traceback)
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\venv\lib\site-packages\azure\data\tables\_table_client.py", line 477, in update_entity
+    **kwargs
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\venv\lib\site-packages\azure\data\tables\_generated\operations\_table_operations.py", line 598, in update_entity
+    raise HttpResponseError(response=response, model=error)
+azure.core.exceptions.ResourceModifiedError: The update condition specified in the request was not satisfied.
+RequestId:32e6a801-c002-005e-2a76-c691a2000000
+Time:2021-10-21T12:25:46.9668370Z
+ErrorCode:UpdateConditionNotSatisfied
+2021-10-21 14:25:48,094 - __main__ - INFO - 
+
+ ### Script ends, success = True ### 
+
+
+2021-10-21 14:26:03,991 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 14:26:03,994 - dotenv.main - WARNING - Python-dotenv could not parse statement starting at line 2
+2021-10-21 14:26:04,186 - modules.azure_table_handler - INFO - Azure Table Service Entity Retrieved {'PartitionKey': '1', 'RowKey': '1', 'LastCode': '000151'}
+2021-10-21 14:26:11,695 - root - ERROR - The update condition specified in the request was not satisfied.
+RequestId:ddc67868-2002-0069-1976-c6430e000000
+Time:2021-10-21T12:26:10.8004978Z
+ErrorCode:UpdateConditionNotSatisfied 
+
+ Something went wrong while trying to update the Azure Table with a new value. Do you have internet? Has the Azure service been modified?
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\venv\lib\site-packages\azure\data\tables\_table_client.py", line 477, in update_entity
+    **kwargs
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\venv\lib\site-packages\azure\data\tables\_generated\operations\_table_operations.py", line 598, in update_entity
+    raise HttpResponseError(response=response, model=error)
+azure.core.exceptions.HttpResponseError: Operation returned an invalid status 'Precondition Failed'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\modules\azure_table_handler.py", line 35, in update_datamatrix_code
+    result = self.table_client.update_entity(mode=UpdateMode.REPLACE, entity = entity, etag = self.etag, match_condition=MatchConditions.IfNotModified)
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\venv\lib\site-packages\azure\core\tracing\decorator.py", line 83, in wrapper_use_tracer
+    return func(*args, **kwargs)
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\venv\lib\site-packages\azure\data\tables\_table_client.py", line 492, in update_entity
+    _process_table_error(error)
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\venv\lib\site-packages\azure\data\tables\_error.py", line 153, in _process_table_error
+    _reraise_error(decoded_error)
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\venv\lib\site-packages\azure\data\tables\_error.py", line 145, in _reraise_error
+    raise decoded_error.with_traceback(exc_traceback)
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\venv\lib\site-packages\azure\data\tables\_table_client.py", line 477, in update_entity
+    **kwargs
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\venv\lib\site-packages\azure\data\tables\_generated\operations\_table_operations.py", line 598, in update_entity
+    raise HttpResponseError(response=response, model=error)
+azure.core.exceptions.ResourceModifiedError: The update condition specified in the request was not satisfied.
+RequestId:ddc67868-2002-0069-1976-c6430e000000
+Time:2021-10-21T12:26:10.8004978Z
+ErrorCode:UpdateConditionNotSatisfied
+2021-10-21 14:26:11,878 - __main__ - INFO - 
+
+ ### Script ends, success = True ### 
+
+
+2021-10-21 14:28:42,318 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 14:28:42,321 - dotenv.main - WARNING - Python-dotenv could not parse statement starting at line 2
+2021-10-21 14:28:42,578 - modules.azure_table_handler - INFO - Azure Table Service Entity Retrieved {'PartitionKey': '1', 'RowKey': '1', 'LastCode': '000151'}
+2021-10-21 14:28:51,373 - root - ERROR - The update condition specified in the request was not satisfied.
+RequestId:8979a48c-7002-005b-6577-c64379000000
+Time:2021-10-21T12:28:50.4530704Z
+ErrorCode:UpdateConditionNotSatisfied 
+
+ Something went wrong while trying to update the Azure Table with a new value. Do you have internet? Has the Azure service been modified?
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\venv\lib\site-packages\azure\data\tables\_table_client.py", line 477, in update_entity
+    **kwargs
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\venv\lib\site-packages\azure\data\tables\_generated\operations\_table_operations.py", line 598, in update_entity
+    raise HttpResponseError(response=response, model=error)
+azure.core.exceptions.HttpResponseError: Operation returned an invalid status 'Precondition Failed'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\modules\azure_table_handler.py", line 36, in update_datamatrix_code
+    result = self.table_client.update_entity(mode=UpdateMode.REPLACE, entity = entity, etag = self.etag, match_condition=MatchConditions.IfNotModified)
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\venv\lib\site-packages\azure\core\tracing\decorator.py", line 83, in wrapper_use_tracer
+    return func(*args, **kwargs)
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\venv\lib\site-packages\azure\data\tables\_table_client.py", line 492, in update_entity
+    _process_table_error(error)
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\venv\lib\site-packages\azure\data\tables\_error.py", line 153, in _process_table_error
+    _reraise_error(decoded_error)
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\venv\lib\site-packages\azure\data\tables\_error.py", line 145, in _reraise_error
+    raise decoded_error.with_traceback(exc_traceback)
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\venv\lib\site-packages\azure\data\tables\_table_client.py", line 477, in update_entity
+    **kwargs
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\venv\lib\site-packages\azure\data\tables\_generated\operations\_table_operations.py", line 598, in update_entity
+    raise HttpResponseError(response=response, model=error)
+azure.core.exceptions.ResourceModifiedError: The update condition specified in the request was not satisfied.
+RequestId:8979a48c-7002-005b-6577-c64379000000
+Time:2021-10-21T12:28:50.4530704Z
+ErrorCode:UpdateConditionNotSatisfied
+2021-10-21 14:35:34,172 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 14:35:34,176 - dotenv.main - WARNING - Python-dotenv could not parse statement starting at line 2
+2021-10-21 14:35:34,451 - modules.azure_table_handler - INFO - Azure Table Service Entity Retrieved {'PartitionKey': '1', 'RowKey': '1', 'LastCode': '000152'}
+2021-10-21 14:35:47,821 - root - ERROR - The update condition specified in the request was not satisfied.
+RequestId:8e8bcd9a-c002-002c-3f78-c696ed000000
+Time:2021-10-21T12:35:46.8955342Z
+ErrorCode:UpdateConditionNotSatisfied 
+
+ Something went wrong while trying to update the Azure Table with a new value. Do you have internet? Has the Azure service been modified?
+2021-10-21 14:37:54,950 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 14:37:54,954 - dotenv.main - WARNING - Python-dotenv could not parse statement starting at line 2
+2021-10-21 14:37:55,231 - modules.azure_table_handler - INFO - Azure Table Service Entity Retrieved {'PartitionKey': '1', 'RowKey': '1', 'LastCode': '000153'}
+2021-10-21 14:38:05,343 - root - ERROR - The update condition specified in the request was not satisfied.
+RequestId:14fe6d7b-6002-0025-5c78-c6d33e000000
+Time:2021-10-21T12:38:04.4169021Z
+ErrorCode:UpdateConditionNotSatisfied
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\venv\lib\site-packages\azure\data\tables\_table_client.py", line 477, in update_entity
+    **kwargs
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\venv\lib\site-packages\azure\data\tables\_generated\operations\_table_operations.py", line 598, in update_entity
+    raise HttpResponseError(response=response, model=error)
+azure.core.exceptions.HttpResponseError: Operation returned an invalid status 'Precondition Failed'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\modules\azure_table_handler.py", line 36, in update_datamatrix_code
+    result = self.table_client.update_entity(mode=UpdateMode.REPLACE, entity = entity, etag = self.etag, match_condition=MatchConditions.IfNotModified)
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\venv\lib\site-packages\azure\core\tracing\decorator.py", line 83, in wrapper_use_tracer
+    return func(*args, **kwargs)
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\venv\lib\site-packages\azure\data\tables\_table_client.py", line 492, in update_entity
+    _process_table_error(error)
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\venv\lib\site-packages\azure\data\tables\_error.py", line 153, in _process_table_error
+    _reraise_error(decoded_error)
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\venv\lib\site-packages\azure\data\tables\_error.py", line 145, in _reraise_error
+    raise decoded_error.with_traceback(exc_traceback)
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\venv\lib\site-packages\azure\data\tables\_table_client.py", line 477, in update_entity
+    **kwargs
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\venv\lib\site-packages\azure\data\tables\_generated\operations\_table_operations.py", line 598, in update_entity
+    raise HttpResponseError(response=response, model=error)
+azure.core.exceptions.ResourceModifiedError: The update condition specified in the request was not satisfied.
+RequestId:14fe6d7b-6002-0025-5c78-c6d33e000000
+Time:2021-10-21T12:38:04.4169021Z
+ErrorCode:UpdateConditionNotSatisfied
+2021-10-21 14:38:05,354 - root - ERROR - The update condition specified in the request was not satisfied.
+RequestId:14fe6d7b-6002-0025-5c78-c6d33e000000
+Time:2021-10-21T12:38:04.4169021Z
+ErrorCode:UpdateConditionNotSatisfied 
+
+ Something went wrong while trying to update the Azure Table with a new value. Do you have internet? Has the Azure service been modified? If multiple machines are running this script there may have been a conflict. In that case, try again.
+2021-10-21 14:42:30,714 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 14:42:30,720 - dotenv.main - WARNING - Python-dotenv could not parse statement starting at line 2
+2021-10-21 14:42:35,666 - root - ERROR - <urllib3.connection.HTTPSConnection object at 0x0000017CC24164C8>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\modules\azure_table_handler.py", line 25, in get_datamatrix_code
+    entity = self.table_client.get_entity(partition_key=self.partition_key, row_key=self.row_key)
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\venv\lib\site-packages\azure\core\tracing\decorator.py", line 83, in wrapper_use_tracer
+    return func(*args, **kwargs)
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\venv\lib\site-packages\azure\data\tables\_table_client.py", line 617, in get_entity
+    **kwargs
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\venv\lib\site-packages\azure\data\tables\_generated\operations\_table_operations.py", line 480, in query_entity_with_partition_and_row_key
+    pipeline_response = self._client._pipeline.run(request, stream=False, **kwargs)
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\venv\lib\site-packages\azure\core\pipeline\_base.py", line 211, in run
+    return first_node.send(pipeline_request)  # type: ignore
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\venv\lib\site-packages\azure\core\pipeline\_base.py", line 71, in send
+    response = self.next.send(request)
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\venv\lib\site-packages\azure\core\pipeline\_base.py", line 71, in send
+    response = self.next.send(request)
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\venv\lib\site-packages\azure\core\pipeline\_base.py", line 71, in send
+    response = self.next.send(request)
+  [Previous line repeated 3 more times]
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\venv\lib\site-packages\azure\core\pipeline\policies\_redirect.py", line 158, in send
+    response = self.next.send(request)
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\venv\lib\site-packages\azure\core\pipeline\_base.py", line 71, in send
+    response = self.next.send(request)
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\venv\lib\site-packages\azure\data\tables\_policies.py", line 225, in send
+    raise err
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\venv\lib\site-packages\azure\data\tables\_policies.py", line 201, in send
+    response = self.next.send(request)
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\venv\lib\site-packages\azure\core\pipeline\_base.py", line 71, in send
+    response = self.next.send(request)
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\venv\lib\site-packages\azure\core\pipeline\_base.py", line 71, in send
+    response = self.next.send(request)
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\venv\lib\site-packages\azure\core\pipeline\_base.py", line 71, in send
+    response = self.next.send(request)
+  [Previous line repeated 1 more time]
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\venv\lib\site-packages\azure\core\pipeline\_base.py", line 103, in send
+    self._sender.send(request.http_request, **request.context.options),
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\venv\lib\site-packages\azure\core\pipeline\transport\_requests_basic.py", line 330, in send
+    raise error
+azure.core.exceptions.ServiceRequestError: <urllib3.connection.HTTPSConnection object at 0x0000017CC24164C8>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed
+2021-10-21 14:42:35,719 - root - ERROR - <urllib3.connection.HTTPSConnection object at 0x0000017CC24164C8>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed 
+
+ Something went wrong while trying to retrieve the last code from the Azure Table. Do you have internet? Has the Azure service been modified?
+2021-10-21 14:45:13,106 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 14:45:13,318 - modules.azure_table_handler - INFO - Azure Table Service Entity Retrieved {'PartitionKey': '1', 'RowKey': '1', 'LastCode': '000154'}
+2021-10-21 14:45:13,352 - modules.azure_table_handler - INFO - Azure Table Service Update {'date': datetime.datetime(2021, 10, 21, 12, 45, 11, tzinfo=datetime.timezone.utc), 'etag': 'W/"datetime\'2021-10-21T12%3A45%3A12.4279685Z\'"', 'version': '2019-02-02'}
+2021-10-21 14:45:13,480 - __main__ - INFO - 
+
+ ### Script ends, success = True ### 
+
+
+2021-10-21 14:46:40,567 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 14:46:41,079 - modules.azure_table_handler - INFO - Azure Table Service Entity Retrieved {'PartitionKey': '1', 'RowKey': '1', 'LastCode': '000185'}
+2021-10-21 14:46:41,112 - modules.azure_table_handler - INFO - Azure Table Service Update {'date': datetime.datetime(2021, 10, 21, 12, 46, 40, tzinfo=datetime.timezone.utc), 'etag': 'W/"datetime\'2021-10-21T12%3A46%3A40.1888845Z\'"', 'version': '2019-02-02'}
+2021-10-21 14:46:41,226 - __main__ - INFO - 
+
+ ### Script ends, success = True ### 
+
+
+2021-10-21 14:49:36,941 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 14:49:37,176 - modules.azure_table_handler - INFO - Azure Table Service Entity Retrieved {'PartitionKey': '1', 'RowKey': '1', 'LastCode': '000216'}
+2021-10-21 14:49:37,215 - modules.azure_table_handler - INFO - Azure Table Service Update {'date': datetime.datetime(2021, 10, 21, 12, 49, 35, tzinfo=datetime.timezone.utc), 'etag': 'W/"datetime\'2021-10-21T12%3A49%3A36.2904452Z\'"', 'version': '2019-02-02'}
+2021-10-21 14:49:37,227 - root - INFO - Output file at location C:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\output_files/20211021-144937_PHYSEE_SENSE_code_000216_to_000246.svg
+2021-10-21 14:49:37,330 - __main__ - INFO - 
+
+ ### Script ends, success = True ### 
+
+
+2021-10-21 14:54:48,923 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 14:54:49,179 - modules.azure_table_handler - INFO - Azure Table Service Entity Retrieved {'PartitionKey': '1', 'RowKey': '1', 'LastCode': '000247'}
+2021-10-21 14:54:49,213 - modules.azure_table_handler - INFO - Azure Table Service Update {'date': datetime.datetime(2021, 10, 21, 12, 54, 47, tzinfo=datetime.timezone.utc), 'etag': 'W/"datetime\'2021-10-21T12%3A54%3A48.2890612Z\'"', 'version': '2019-02-02'}
+2021-10-21 14:54:49,227 - root - INFO - Output file at location C:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\output_files/20211021-145449_PHYSEE_SENSE_code_000247_to_000277.svg
+2021-10-21 14:54:49,331 - __main__ - INFO - 
+
+ ### Script ends, success = True ### 
+
+
+2021-10-21 14:57:35,462 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 14:57:35,669 - modules.azure_table_handler - INFO - Azure Table Service Entity Retrieved {'PartitionKey': '1', 'RowKey': '1', 'LastCode': '000278'}
+2021-10-21 14:57:35,703 - modules.azure_table_handler - INFO - Azure Table Service Update {'date': datetime.datetime(2021, 10, 21, 12, 57, 34, tzinfo=datetime.timezone.utc), 'etag': 'W/"datetime\'2021-10-21T12%3A57%3A34.777794Z\'"', 'version': '2019-02-02'}
+2021-10-21 14:57:35,717 - root - INFO - Output file at location C:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\output_files/20211021-145735_TEST_PHYSEE_SENSE_code_000278_to_000308.svg
+2021-10-21 14:57:35,822 - __main__ - INFO - 
+
+ ### Script ends, success = True ### 
+
+
+2021-10-21 14:58:13,177 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 14:58:13,344 - modules.azure_table_handler - INFO - Azure Table Service Entity Retrieved {'PartitionKey': '1', 'RowKey': '1', 'LastCode': '000309'}
+2021-10-21 14:58:13,377 - modules.azure_table_handler - INFO - Azure Table Service Update {'date': datetime.datetime(2021, 10, 21, 12, 58, 11, tzinfo=datetime.timezone.utc), 'etag': 'W/"datetime\'2021-10-21T12%3A58%3A12.4517907Z\'"', 'version': '2019-02-02'}
+2021-10-21 14:58:13,389 - root - INFO - Output file at location C:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\output_files/20211021-145813_TEST_PHYSEE_SENSE_code_000309_to_000339.svg
+2021-10-21 14:58:13,493 - __main__ - INFO - 
+
+ ### Script ends, success = True ### 
+
+
+2021-10-21 14:58:41,743 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 14:58:41,746 - __main__ - ERROR - Target was not specified. Script has not run.
+2021-10-21 15:01:07,998 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 15:01:08,000 - __main__ - ERROR - Target was not specified. Script has not run.
+2021-10-21 15:02:44,712 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 15:02:44,945 - modules.azure_table_handler - INFO - Azure Table Service Entity Retrieved {'PartitionKey': '1', 'RowKey': '1', 'LastCode': '000340'}
+2021-10-21 15:02:44,977 - modules.azure_table_handler - INFO - Azure Table Service Update {'date': datetime.datetime(2021, 10, 21, 13, 2, 43, tzinfo=datetime.timezone.utc), 'etag': 'W/"datetime\'2021-10-21T13%3A02%3A44.0515033Z\'"', 'version': '2019-02-02'}
+2021-10-21 15:02:44,982 - root - INFO - Output file at location C:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\output_files/20211021-150244_TEST_PHYSEE_SENSE_code_000340_to_000370.svg
+2021-10-21 15:02:45,086 - __main__ - INFO - 
+
+ ### Script ends, success = True ### 
+
+
+2021-10-21 15:03:08,534 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 15:03:08,537 - __main__ - ERROR - Target was not specified. Script has not run.
+2021-10-21 15:03:19,040 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 15:03:19,043 - __main__ - ERROR - Target was not specified. Script has not run.
+2021-10-21 15:03:29,235 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 15:03:29,239 - __main__ - ERROR - Target was not specified. Script has not run.
+2021-10-21 15:03:42,671 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 15:03:42,820 - modules.azure_table_handler - INFO - Azure Table Service Entity Retrieved {'PartitionKey': '1', 'RowKey': '1', 'LastCode': '000371'}
+2021-10-21 15:03:42,849 - modules.azure_table_handler - INFO - Azure Table Service Update {'date': datetime.datetime(2021, 10, 21, 13, 3, 41, tzinfo=datetime.timezone.utc), 'etag': 'W/"datetime\'2021-10-21T13%3A03%3A41.9248223Z\'"', 'version': '2019-02-02'}
+2021-10-21 15:03:42,854 - root - INFO - Output file at location C:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\output_files/20211021-150342_TEST_PHYSEE_SENSE_code_000371_to_000401.svg
+2021-10-21 15:03:42,962 - __main__ - INFO - 
+
+ ### Script ends, success = True ### 
+
+
+2021-10-21 15:05:46,462 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 15:05:46,652 - modules.azure_table_handler - INFO - Azure Table Service Entity Retrieved {'PartitionKey': '1', 'RowKey': '1', 'LastCode': '000402'}
+2021-10-21 15:05:46,680 - modules.azure_table_handler - INFO - Azure Table Service Update {'date': datetime.datetime(2021, 10, 21, 13, 5, 45, tzinfo=datetime.timezone.utc), 'etag': 'W/"datetime\'2021-10-21T13%3A05%3A45.7547867Z\'"', 'version': '2019-02-02'}
+2021-10-21 15:05:46,689 - root - INFO - Output file at location C:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\output_files/20211021-150546_TEST_PHYSEE_SENSE_code_000402_to_000432.svg
+2021-10-21 15:05:46,860 - __main__ - INFO - 
+
+ ### Script ends, success = True ### 
+
+
+2021-10-21 15:07:00,396 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 15:07:00,397 - __main__ - INFO - 
+
+### TEST mode is enabled. Last code will be retrieved from and updated to test key in azure, not production. DO NOT USE THIS OUTPUT FOR PRODUCTION PURPOSES. ### 
+
+
+2021-10-21 15:07:00,604 - modules.azure_table_handler - INFO - Azure Table Service Entity Retrieved {'PartitionKey': '1', 'RowKey': '1', 'LastCode': '000433'}
+2021-10-21 15:07:00,633 - modules.azure_table_handler - INFO - Azure Table Service Update {'date': datetime.datetime(2021, 10, 21, 13, 6, 58, tzinfo=datetime.timezone.utc), 'etag': 'W/"datetime\'2021-10-21T13%3A06%3A59.7077805Z\'"', 'version': '2019-02-02'}
+2021-10-21 15:07:00,641 - root - INFO - Output file at location C:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\output_files/20211021-150700_PRODUCTION_PHYSEE_SENSE_code_000433_to_000463.svg
+2021-10-21 15:07:00,742 - __main__ - INFO - 
+
+ ### Script ends, success = True ### 
+
+
+2021-10-21 15:09:49,526 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 15:09:49,528 - __main__ - INFO - 
+
+### TEST mode is enabled. Last code will be retrieved from and updated to test key in azure, not production. DO NOT USE THIS OUTPUT FOR PRODUCTION PURPOSES. ### 
+
+
+2021-10-21 15:09:49,751 - modules.azure_table_handler - INFO - Azure Table Service Entity Retrieved {'PartitionKey': '1', 'RowKey': '1', 'LastCode': '000464'}
+2021-10-21 15:09:49,776 - modules.azure_table_handler - INFO - Azure Table Service Update {'date': datetime.datetime(2021, 10, 21, 13, 9, 48, tzinfo=datetime.timezone.utc), 'etag': 'W/"datetime\'2021-10-21T13%3A09%3A48.8494431Z\'"', 'version': '2019-02-02'}
+2021-10-21 15:09:49,781 - root - INFO - Output file at location C:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\output_files/20211021-150949_TEST_PHYSEE_SENSE_code_000464_to_000494.svg
+2021-10-21 15:09:49,873 - __main__ - INFO - 
+
+ ### Script ends, success = True ### 
+
+
+2021-10-21 15:10:31,682 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 15:10:31,842 - modules.azure_table_handler - INFO - Azure Table Service Entity Retrieved {'PartitionKey': '1', 'RowKey': '1', 'LastCode': '000495'}
+2021-10-21 15:10:31,868 - modules.azure_table_handler - INFO - Azure Table Service Update {'date': datetime.datetime(2021, 10, 21, 13, 10, 30, tzinfo=datetime.timezone.utc), 'etag': 'W/"datetime\'2021-10-21T13%3A10%3A30.9429753Z\'"', 'version': '2019-02-02'}
+2021-10-21 15:10:31,872 - root - INFO - Output file at location C:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\output_files/20211021-151031_PRODUCTION_PHYSEE_SENSE_code_000495_to_000525.svg
+2021-10-21 15:10:31,972 - __main__ - INFO - 
+
+ ### Script ends, success = True ### 
+
+
+2021-10-21 15:14:41,005 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 15:14:41,006 - __main__ - ERROR - Target was not specified. Script has not run.
+2021-10-21 15:14:59,291 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 15:14:59,292 - __main__ - ERROR - Target was not specified. Script has not run.
+2021-10-21 15:19:23,818 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 15:19:24,029 - modules.azure_table_handler - INFO - Azure Table Service Entity Retrieved {'PartitionKey': '1', 'RowKey': '1', 'LastCode': '000526'}
+2021-10-21 15:19:24,055 - modules.azure_table_handler - INFO - Azure Table Service Update {'date': datetime.datetime(2021, 10, 21, 13, 19, 22, tzinfo=datetime.timezone.utc), 'etag': 'W/"datetime\'2021-10-21T13%3A19%3A23.1275841Z\'"', 'version': '2019-02-02'}
+2021-10-21 15:19:24,064 - root - INFO - Output file at location C:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\output_files/20211021-151924_PRODUCTION_PHYSEE_SENSE_code_000526_to_000556.svg
+2021-10-21 15:19:24,164 - __main__ - INFO - 
+
+ ### Script ends, success = True ### 
+
+
+2021-10-21 15:20:50,656 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 15:20:50,828 - modules.azure_table_handler - INFO - Azure Table Service Entity Retrieved {'PartitionKey': '1', 'RowKey': '1', 'LastCode': '000557'}
+2021-10-21 15:20:50,853 - modules.azure_table_handler - INFO - Azure Table Service Update {'date': datetime.datetime(2021, 10, 21, 13, 20, 49, tzinfo=datetime.timezone.utc), 'etag': 'W/"datetime\'2021-10-21T13%3A20%3A49.9240602Z\'"', 'version': '2019-02-02'}
+2021-10-21 15:20:50,855 - __main__ - ERROR - Unhandled exception
+Traceback (most recent call last):
+  File "script.py", line 161, in main
+    DmReplacer.convert_template()
+  File "script.py", line 82, in convert_template
+    for rect in rects:
+TypeError: 'NoneType' object is not iterable
+2021-10-21 15:20:50,857 - __main__ - INFO - 
+
+ ### Script ends, success = False ### 
+
+
+2021-10-21 15:21:08,688 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 15:21:08,834 - modules.azure_table_handler - INFO - Azure Table Service Entity Retrieved {'PartitionKey': '1', 'RowKey': '1', 'LastCode': '000588'}
+2021-10-21 15:21:08,861 - modules.azure_table_handler - INFO - Azure Table Service Update {'date': datetime.datetime(2021, 10, 21, 13, 21, 7, tzinfo=datetime.timezone.utc), 'etag': 'W/"datetime\'2021-10-21T13%3A21%3A07.9325801Z\'"', 'version': '2019-02-02'}
+2021-10-21 15:21:08,863 - __main__ - ERROR - Unhandled exception
+Traceback (most recent call last):
+  File "script.py", line 161, in main
+    DmReplacer.convert_template()
+  File "script.py", line 83, in convert_template
+    matrix = DmGen.gen_datamatrix(w, x, y)
+NameError: name 'w' is not defined
+2021-10-21 15:21:08,868 - __main__ - INFO - 
+
+ ### Script ends, success = False ### 
+
+
+2021-10-21 15:21:51,587 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 15:21:51,805 - modules.azure_table_handler - INFO - Azure Table Service Entity Retrieved {'PartitionKey': '1', 'RowKey': '1', 'LastCode': '000619'}
+2021-10-21 15:21:51,829 - modules.azure_table_handler - INFO - Azure Table Service Update {'date': datetime.datetime(2021, 10, 21, 13, 21, 49, tzinfo=datetime.timezone.utc), 'etag': 'W/"datetime\'2021-10-21T13%3A21%3A50.9015793Z\'"', 'version': '2019-02-02'}
+2021-10-21 15:21:51,835 - root - INFO - Output file at location C:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\output_files/20211021-152151_PRODUCTION_PHYSEE_SENSE_code_000619_to_000649.svg
+2021-10-21 15:21:51,932 - __main__ - INFO - 
+
+ ### Script ends, success = True ### 
+
+
+2021-10-21 15:34:27,478 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 15:34:27,655 - modules.azure_table_handler - INFO - Azure Table Service Entity Retrieved {'PartitionKey': '1', 'RowKey': '1', 'LastCode': '000650'}
+2021-10-21 15:34:27,679 - modules.azure_table_handler - INFO - Azure Table Service Update {'date': datetime.datetime(2021, 10, 21, 13, 34, 26, tzinfo=datetime.timezone.utc), 'etag': 'W/"datetime\'2021-10-21T13%3A34%3A26.7482967Z\'"', 'version': '2019-02-02'}
+2021-10-21 15:34:27,681 - __main__ - ERROR - Unhandled exception
+Traceback (most recent call last):
+  File "script.py", line 146, in main
+    DmReplacer.convert_template()
+  File "script.py", line 81, in convert_template
+    rects = self.get_rects(template_root, template_namespace)
+  File "script.py", line 62, in get_rects
+    raise ValueError(f'TEMPLATE ISSUE: The width does not equal the height of one of the replacement squares in the template (color {self.dmcolor}). Please fix this template issue.')
+ValueError: TEMPLATE ISSUE: The width does not equal the height of one of the replacement squares in the template (color #000000). Please fix this template issue.
+2021-10-21 15:34:27,683 - __main__ - INFO - 
+
+ ### Script ends, success = False ### 
+
+
+2021-10-21 15:44:34,317 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 15:44:34,320 - __main__ - ERROR - Unhandled exception
+Traceback (most recent call last):
+  File "script.py", line 148, in main
+    if not DmReplacer.prechecks_passed(target): sys.exit()
+AttributeError: 'PlaceDatamatricesInTemplate' object has no attribute 'prechecks_passed'
+2021-10-21 15:44:34,322 - __main__ - INFO - 
+
+ ### Script ends, success = False ### 
+
+
+2021-10-21 15:44:53,787 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 15:44:53,791 - __main__ - ERROR - TEMPLATE ISSUE: The width does not equal the height of one of the replacement squares in the template (color #000000). Please fix this template issue.
+2021-10-21 15:46:14,609 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 15:46:14,612 - __main__ - ERROR - '<' not supported between instances of 'list' and 'int'
+2021-10-21 15:46:44,085 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 15:46:44,275 - modules.azure_table_handler - INFO - Azure Table Service Entity Retrieved {'PartitionKey': '1', 'RowKey': '1', 'LastCode': '000681'}
+2021-10-21 15:46:44,300 - modules.azure_table_handler - INFO - Azure Table Service Update {'date': datetime.datetime(2021, 10, 21, 13, 46, 43, tzinfo=datetime.timezone.utc), 'etag': 'W/"datetime\'2021-10-21T13%3A46%3A43.3687688Z\'"', 'version': '2019-02-02'}
+2021-10-21 15:46:44,304 - root - INFO - Output file at location C:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\output_files/20211021-154644_PRODUCTION_PHYSEE_SENSE_code_000681_to_000682.svg
+2021-10-21 15:46:44,403 - __main__ - INFO - 
+
+ ### Script ends, success = True ### 
+
+
+2021-10-21 15:47:18,976 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 15:47:18,979 - __main__ - ERROR - TEMPLATE ISSUE: 0 replacement squares with color #000000 found in template file.
+2021-10-21 15:47:43,738 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 15:47:44,960 - modules.azure_table_handler - INFO - Azure Table Service Entity Retrieved {'PartitionKey': '1', 'RowKey': '1', 'LastCode': '000683'}
+2021-10-21 15:47:44,984 - modules.azure_table_handler - INFO - Azure Table Service Update {'date': datetime.datetime(2021, 10, 21, 13, 47, 43, tzinfo=datetime.timezone.utc), 'etag': 'W/"datetime\'2021-10-21T13%3A47%3A44.0532366Z\'"', 'version': '2019-02-02'}
+2021-10-21 15:47:44,990 - root - INFO - Output file at location C:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\output_files/20211021-154744_PRODUCTION_PHYSEE_SENSE_code_000683_to_000687.svg
+2021-10-21 15:47:45,080 - __main__ - INFO - 
+
+ ### Script ends, success = True ### 
+
+
+2021-10-21 15:51:23,457 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 15:51:23,656 - modules.azure_table_handler - INFO - Azure Table Service Entity Retrieved {'PartitionKey': '1', 'RowKey': '1', 'LastCode': '000688'}
+2021-10-21 15:51:23,681 - modules.azure_table_handler - INFO - Azure Table Service Update {'date': datetime.datetime(2021, 10, 21, 13, 51, 22, tzinfo=datetime.timezone.utc), 'etag': 'W/"datetime\'2021-10-21T13%3A51%3A22.749555Z\'"', 'version': '2019-02-02'}
+2021-10-21 15:51:23,686 - root - INFO - Output file at location C:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\output_files/20211021-155123_PRODUCTION_PHYSEE_SENSE_code_000688_to_000691.svg
+2021-10-21 15:51:23,789 - __main__ - INFO - 
+
+ ### Script ends, success = True ### 
+
+
+2021-10-21 15:52:44,204 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 15:52:44,437 - modules.azure_table_handler - INFO - Azure Table Service Entity Retrieved {'PartitionKey': '1', 'RowKey': '1', 'LastCode': '000692'}
+2021-10-21 15:52:44,466 - modules.azure_table_handler - INFO - Azure Table Service Update {'date': datetime.datetime(2021, 10, 21, 13, 52, 42, tzinfo=datetime.timezone.utc), 'etag': 'W/"datetime\'2021-10-21T13%3A52%3A43.5324891Z\'"', 'version': '2019-02-02'}
+2021-10-21 15:52:44,474 - root - INFO - Output file at location C:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\output_files/20211021-155244_PRODUCTION_PHYSEE_SENSE_code_000692_to_000695.svg
+2021-10-21 15:52:44,567 - __main__ - INFO - 
+
+ ### Script ends, success = True ### 
+
+
+2021-10-21 15:52:55,696 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 15:52:55,822 - modules.azure_table_handler - INFO - Azure Table Service Entity Retrieved {'PartitionKey': '1', 'RowKey': '1', 'LastCode': '000696'}
+2021-10-21 15:52:55,853 - modules.azure_table_handler - INFO - Azure Table Service Update {'date': datetime.datetime(2021, 10, 21, 13, 52, 54, tzinfo=datetime.timezone.utc), 'etag': 'W/"datetime\'2021-10-21T13%3A52%3A54.9208567Z\'"', 'version': '2019-02-02'}
+2021-10-21 15:52:55,857 - root - INFO - Output file at location C:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\output_files/20211021-155255_PRODUCTION_PHYSEE_SENSE_code_000696_to_000699.svg
+2021-10-21 15:52:55,961 - __main__ - INFO - 
+
+ ### Script ends, success = True ### 
+
+
+2021-10-21 15:57:35,476 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 15:57:35,479 - root - INFO - Number of datamatrices to be generated: 4
+2021-10-21 15:57:35,702 - modules.azure_table_handler - INFO - Azure Table Service Entity Retrieved {'PartitionKey': '1', 'RowKey': '1', 'LastCode': '000700'}
+2021-10-21 15:57:35,729 - modules.azure_table_handler - INFO - Azure Table Service Update {'date': datetime.datetime(2021, 10, 21, 13, 57, 34, tzinfo=datetime.timezone.utc), 'etag': 'W/"datetime\'2021-10-21T13%3A57%3A34.795Z\'"', 'version': '2019-02-02'}
+2021-10-21 15:57:35,734 - root - INFO - Output file at location C:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\output_files/20211021-155735_PRODUCTION_PHYSEE_SENSE_code_000700_to_000703.svg
+2021-10-21 15:57:35,829 - __main__ - INFO - 
+
+ ### Script ends, success = True ### 
+
+
+2021-10-21 15:58:34,090 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 15:58:34,093 - root - INFO - Number of datamatrices to be generated: 4
+2021-10-21 15:58:34,230 - modules.azure_table_handler - INFO - Azure Table Service Entity Retrieved {'PartitionKey': '1', 'RowKey': '1', 'LastCode': '000704'}
+2021-10-21 15:58:34,258 - modules.azure_table_handler - INFO - Azure Table Service Update to value 000708 {'date': datetime.datetime(2021, 10, 21, 13, 58, 33, tzinfo=datetime.timezone.utc), 'etag': 'W/"datetime\'2021-10-21T13%3A58%3A33.3239635Z\'"', 'version': '2019-02-02'}
+2021-10-21 15:58:34,262 - root - INFO - Output file at location C:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\output_files/20211021-155834_PRODUCTION_PHYSEE_SENSE_code_000704_to_000707.svg
+2021-10-21 15:58:34,382 - __main__ - INFO - 
+
+ ### Script ends, success = True ### 
+
+
+2021-10-21 15:59:10,724 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 15:59:10,727 - root - INFO - Number of datamatrices to be generated: 4
+2021-10-21 15:59:10,923 - modules.azure_table_handler - INFO - Azure Table Service Entity Retrieved {'PartitionKey': '1', 'RowKey': '1', 'LastCode': '000708'}
+2021-10-21 15:59:10,948 - modules.azure_table_handler - INFO - Azure Table Service Update to LastCode 000712 {'date': datetime.datetime(2021, 10, 21, 13, 59, 9, tzinfo=datetime.timezone.utc), 'etag': 'W/"datetime\'2021-10-21T13%3A59%3A10.0146289Z\'"', 'version': '2019-02-02'}
+2021-10-21 15:59:10,952 - root - INFO - Output file at location C:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\output_files/20211021-155910_PRODUCTION_PHYSEE_SENSE_code_000708_to_000711.svg
+2021-10-21 15:59:11,053 - __main__ - INFO - 
+
+ ### Script ends, success = True ### 
+
+
+2021-10-21 16:00:56,600 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 16:00:56,604 - root - INFO - Number of datamatrices to be generated: 4
+2021-10-21 16:00:56,829 - modules.azure_table_handler - INFO - Azure Table Service Entity Retrieved {'PartitionKey': '1', 'RowKey': '1', 'NextCode': '000100', 'etag': 'W/"datetime\'2021-10-21T11%3A33%3A15.5003082Z\'"'}
+2021-10-21 16:00:56,856 - modules.azure_table_handler - INFO - Azure Table Service Update to LastCode 000104 {'date': datetime.datetime(2021, 10, 21, 14, 0, 55, tzinfo=datetime.timezone.utc), 'etag': 'W/"datetime\'2021-10-21T14%3A00%3A55.9220536Z\'"', 'version': '2019-02-02'}
+2021-10-21 16:00:56,860 - root - INFO - Output file at location C:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\output_files/20211021-160056_PRODUCTION_PHYSEE_SENSE_code_000100_to_000103.svg
+2021-10-21 16:00:56,955 - __main__ - INFO - 
+
+ ### Script ends, success = True ### 
+
+
+2021-10-21 16:05:15,770 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 16:05:15,773 - root - INFO - Number of datamatrices to be generated: 4
+2021-10-21 16:05:15,977 - modules.azure_table_handler - INFO - Azure Table Service Entity Retrieved {'PartitionKey': 'PRODUCTION', 'RowKey': 'PRODUCTION', 'NextCode': '000000'}
+2021-10-21 16:05:16,004 - modules.azure_table_handler - INFO - Azure Table Service Update to NextCode 000004 {'date': datetime.datetime(2021, 10, 21, 14, 5, 14, tzinfo=datetime.timezone.utc), 'etag': 'W/"datetime\'2021-10-21T14%3A05%3A15.070035Z\'"', 'version': '2019-02-02'}
+2021-10-21 16:05:16,011 - root - INFO - Output file at location C:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\output_files/20211021-160516_PRODUCTION_PHYSEE_SENSE_code_000000_to_000003.svg
+2021-10-21 16:05:16,107 - __main__ - INFO - 
+
+ ### Script ends, success = True ### 
+
+
+2021-10-21 16:05:32,851 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 16:05:32,853 - __main__ - ERROR - option --tst not recognized
+2021-10-21 16:05:42,835 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 16:05:42,837 - __main__ - INFO - 
+
+### TEST mode is enabled. Last code will be retrieved from and updated to test key in azure, not production. DO NOT USE THIS OUTPUT FOR PRODUCTION PURPOSES. ### 
+
+
+2021-10-21 16:05:42,840 - root - INFO - Number of datamatrices to be generated: 4
+2021-10-21 16:05:42,999 - modules.azure_table_handler - INFO - Azure Table Service Entity Retrieved {'PartitionKey': 'TEST', 'RowKey': 'TEST', 'NextCode': '000000'}
+2021-10-21 16:05:43,027 - modules.azure_table_handler - INFO - Azure Table Service Update to NextCode 000004 {'date': datetime.datetime(2021, 10, 21, 14, 5, 41, tzinfo=datetime.timezone.utc), 'etag': 'W/"datetime\'2021-10-21T14%3A05%3A42.0922338Z\'"', 'version': '2019-02-02'}
+2021-10-21 16:05:43,031 - root - INFO - Output file at location C:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\output_files/20211021-160543_TEST_PHYSEE_SENSE_code_000000_to_000003.svg
+2021-10-21 16:05:43,118 - __main__ - INFO - 
+
+ ### Script ends, success = True ### 
+
+
+2021-10-21 16:05:51,603 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 16:05:51,604 - __main__ - INFO - 
+
+### TEST mode is enabled. Last code will be retrieved from and updated to test key in azure, not production. DO NOT USE THIS OUTPUT FOR PRODUCTION PURPOSES. ### 
+
+
+2021-10-21 16:05:51,607 - root - INFO - Number of datamatrices to be generated: 4
+2021-10-21 16:05:51,746 - modules.azure_table_handler - INFO - Azure Table Service Entity Retrieved {'PartitionKey': 'TEST', 'RowKey': 'TEST', 'NextCode': '000004'}
+2021-10-21 16:05:51,776 - modules.azure_table_handler - INFO - Azure Table Service Update to NextCode 000008 {'date': datetime.datetime(2021, 10, 21, 14, 5, 49, tzinfo=datetime.timezone.utc), 'etag': 'W/"datetime\'2021-10-21T14%3A05%3A50.8421196Z\'"', 'version': '2019-02-02'}
+2021-10-21 16:05:51,780 - root - INFO - Output file at location C:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\output_files/20211021-160551_TEST_PHYSEE_SENSE_code_000004_to_000007.svg
+2021-10-21 16:05:51,914 - __main__ - INFO - 
+
+ ### Script ends, success = True ### 
+
+
+2021-10-21 16:07:30,460 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 16:07:30,462 - __main__ - INFO - 
+
+### TEST mode is enabled. Last code will be retrieved from and updated to test key in azure, not production. DO NOT USE THIS OUTPUT FOR PRODUCTION PURPOSES. ### 
+
+
+2021-10-21 16:07:30,467 - root - INFO - Number of datamatrices to be generated: 4
+2021-10-21 16:07:30,653 - modules.azure_table_handler - INFO - Azure Table Service Entity Retrieved {'PartitionKey': 'TEST', 'RowKey': 'TEST', 'NextCode': '000008'}
+2021-10-21 16:09:07,746 - root - ERROR - The update condition specified in the request was not satisfied.
+RequestId:49271ba3-1002-003f-3485-c6b2e1000000
+Time:2021-10-21T14:09:06.8046368Z
+ErrorCode:UpdateConditionNotSatisfied
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\venv\lib\site-packages\azure\data\tables\_table_client.py", line 477, in update_entity
+    **kwargs
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\venv\lib\site-packages\azure\data\tables\_generated\operations\_table_operations.py", line 598, in update_entity
+    raise HttpResponseError(response=response, model=error)
+azure.core.exceptions.HttpResponseError: Operation returned an invalid status 'Precondition Failed'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\modules\azure_table_handler.py", line 41, in update_datamatrix_code
+    result = self.table_client.update_entity(mode=UpdateMode.REPLACE, entity = entity, etag = self.etag, match_condition=MatchConditions.IfNotModified)
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\venv\lib\site-packages\azure\core\tracing\decorator.py", line 83, in wrapper_use_tracer
+    return func(*args, **kwargs)
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\venv\lib\site-packages\azure\data\tables\_table_client.py", line 492, in update_entity
+    _process_table_error(error)
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\venv\lib\site-packages\azure\data\tables\_error.py", line 153, in _process_table_error
+    _reraise_error(decoded_error)
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\venv\lib\site-packages\azure\data\tables\_error.py", line 145, in _reraise_error
+    raise decoded_error.with_traceback(exc_traceback)
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\venv\lib\site-packages\azure\data\tables\_table_client.py", line 477, in update_entity
+    **kwargs
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\venv\lib\site-packages\azure\data\tables\_generated\operations\_table_operations.py", line 598, in update_entity
+    raise HttpResponseError(response=response, model=error)
+azure.core.exceptions.ResourceModifiedError: The update condition specified in the request was not satisfied.
+RequestId:49271ba3-1002-003f-3485-c6b2e1000000
+Time:2021-10-21T14:09:06.8046368Z
+ErrorCode:UpdateConditionNotSatisfied
+2021-10-21 16:09:07,760 - root - ERROR - The update condition specified in the request was not satisfied.
+RequestId:49271ba3-1002-003f-3485-c6b2e1000000
+Time:2021-10-21T14:09:06.8046368Z
+ErrorCode:UpdateConditionNotSatisfied 
+
+ Something went wrong while trying to update the Azure Table with a new value. Do you have internet? Has the Azure service been modified? If multiple machines are running this script there may have been a conflicting operation. In that case, try again.
+2021-10-21 16:09:26,494 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 16:09:26,496 - __main__ - INFO - 
+
+### TEST mode is enabled. Last code will be retrieved from and updated to test key in azure, not production. DO NOT USE THIS OUTPUT FOR PRODUCTION PURPOSES. ### 
+
+
+2021-10-21 16:09:26,505 - root - INFO - Number of datamatrices to be generated: 4
+2021-10-21 16:09:26,706 - modules.azure_table_handler - INFO - Azure Table Service Entity Retrieved {'PartitionKey': 'TEST', 'RowKey': 'TEST', 'NextCode': '000154'}
+2021-10-21 16:09:26,742 - modules.azure_table_handler - INFO - Azure Table Service Update to NextCode 000158 {'date': datetime.datetime(2021, 10, 21, 14, 9, 25, tzinfo=datetime.timezone.utc), 'etag': 'W/"datetime\'2021-10-21T14%3A09%3A25.8067092Z\'"', 'version': '2019-02-02'}
+2021-10-21 16:09:26,753 - root - INFO - Output file at location C:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\output_files/20211021-160926_TEST_PHYSEE_SENSE_code_000154_to_000157.svg
+2021-10-21 16:09:26,842 - __main__ - INFO - 
+
+ ### Script ends, success = True ### 
+
+
+2021-10-21 16:24:40,161 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 16:24:40,162 - __main__ - INFO - 
+
+### TEST mode is enabled. Last code will be retrieved from and updated to test key in azure, not production. DO NOT USE THIS OUTPUT FOR PRODUCTION PURPOSES. ### 
+
+
+2021-10-21 16:24:40,166 - __main__ - ERROR - get_rects() takes 2 positional arguments but 3 were given
+2021-10-21 16:25:05,001 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 16:25:05,003 - __main__ - INFO - 
+
+### TEST mode is enabled. Last code will be retrieved from and updated to test key in azure, not production. DO NOT USE THIS OUTPUT FOR PRODUCTION PURPOSES. ### 
+
+
+2021-10-21 16:25:05,005 - root - INFO - Number of datamatrices to be generated: 4
+2021-10-21 16:25:05,234 - modules.azure_table_handler - INFO - Azure Table Service Entity Retrieved {'PartitionKey': 'TEST', 'RowKey': 'TEST', 'NextCode': '000158'}
+2021-10-21 16:25:05,259 - modules.azure_table_handler - INFO - Azure Table Service Update to NextCode 000162 {'date': datetime.datetime(2021, 10, 21, 14, 25, 3, tzinfo=datetime.timezone.utc), 'etag': 'W/"datetime\'2021-10-21T14%3A25%3A04.3220689Z\'"', 'version': '2019-02-02'}
+2021-10-21 16:25:05,261 - __main__ - ERROR - Unhandled exception
+Traceback (most recent call last):
+  File "script.py", line 160, in main
+    DmReplacer.convert_template()
+  File "script.py", line 95, in convert_template
+    if self.is_test: self.add_test_layer(template_namespace)
+  File "script.py", line 73, in add_test_layer
+    text.set("x", 10)
+  File "src\lxml\etree.pyx", line 816, in lxml.etree._Element.set
+  File "src\lxml\apihelpers.pxi", line 593, in lxml.etree._setAttributeValue
+  File "src\lxml\apihelpers.pxi", line 1538, in lxml.etree._utf8
+TypeError: Argument must be bytes or unicode, got 'int'
+2021-10-21 16:25:05,265 - __main__ - INFO - 
+
+ ### Script ends, success = False ### 
+
+
+2021-10-21 16:25:50,837 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 16:25:50,839 - __main__ - INFO - 
+
+### TEST mode is enabled. Last code will be retrieved from and updated to test key in azure, not production. DO NOT USE THIS OUTPUT FOR PRODUCTION PURPOSES. ### 
+
+
+2021-10-21 16:25:50,842 - root - INFO - Number of datamatrices to be generated: 4
+2021-10-21 16:25:50,970 - modules.azure_table_handler - INFO - Azure Table Service Entity Retrieved {'PartitionKey': 'TEST', 'RowKey': 'TEST', 'NextCode': '000162'}
+2021-10-21 16:25:50,997 - modules.azure_table_handler - INFO - Azure Table Service Update to NextCode 000166 {'date': datetime.datetime(2021, 10, 21, 14, 25, 50, tzinfo=datetime.timezone.utc), 'etag': 'W/"datetime\'2021-10-21T14%3A25%3A50.0584043Z\'"', 'version': '2019-02-02'}
+2021-10-21 16:25:50,999 - __main__ - ERROR - Unhandled exception
+Traceback (most recent call last):
+  File "script.py", line 160, in main
+    DmReplacer.convert_template()
+  File "script.py", line 95, in convert_template
+    if self.is_test: self.add_test_layer(template_namespace)
+  File "script.py", line 75, in add_test_layer
+    text.value("this is a test")
+AttributeError: 'lxml.etree._Element' object has no attribute 'value'
+2021-10-21 16:25:51,001 - __main__ - INFO - 
+
+ ### Script ends, success = False ### 
+
+
+2021-10-21 16:26:28,850 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 16:26:28,851 - __main__ - INFO - 
+
+### TEST mode is enabled. Last code will be retrieved from and updated to test key in azure, not production. DO NOT USE THIS OUTPUT FOR PRODUCTION PURPOSES. ### 
+
+
+2021-10-21 16:26:28,854 - root - INFO - Number of datamatrices to be generated: 4
+2021-10-21 16:26:29,064 - modules.azure_table_handler - INFO - Azure Table Service Entity Retrieved {'PartitionKey': 'TEST', 'RowKey': 'TEST', 'NextCode': '000166'}
+2021-10-21 16:26:29,097 - modules.azure_table_handler - INFO - Azure Table Service Update to NextCode 000170 {'date': datetime.datetime(2021, 10, 21, 14, 26, 27, tzinfo=datetime.timezone.utc), 'etag': 'W/"datetime\'2021-10-21T14%3A26%3A28.1562041Z\'"', 'version': '2019-02-02'}
+2021-10-21 16:26:29,102 - __main__ - ERROR - Unhandled exception
+Traceback (most recent call last):
+  File "script.py", line 160, in main
+    DmReplacer.convert_template()
+  File "script.py", line 95, in convert_template
+    if self.is_test: self.add_test_layer(template_namespace)
+  File "script.py", line 75, in add_test_layer
+    text.text("this is a test")
+TypeError: 'NoneType' object is not callable
+2021-10-21 16:26:29,106 - __main__ - INFO - 
+
+ ### Script ends, success = False ### 
+
+
+2021-10-21 16:26:53,226 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 16:26:53,227 - __main__ - INFO - 
+
+### TEST mode is enabled. Last code will be retrieved from and updated to test key in azure, not production. DO NOT USE THIS OUTPUT FOR PRODUCTION PURPOSES. ### 
+
+
+2021-10-21 16:26:53,231 - root - INFO - Number of datamatrices to be generated: 4
+2021-10-21 16:26:53,361 - modules.azure_table_handler - INFO - Azure Table Service Entity Retrieved {'PartitionKey': 'TEST', 'RowKey': 'TEST', 'NextCode': '000170'}
+2021-10-21 16:26:53,391 - modules.azure_table_handler - INFO - Azure Table Service Update to NextCode 000174 {'date': datetime.datetime(2021, 10, 21, 14, 26, 51, tzinfo=datetime.timezone.utc), 'etag': 'W/"datetime\'2021-10-21T14%3A26%3A52.4540487Z\'"', 'version': '2019-02-02'}
+2021-10-21 16:26:53,396 - root - INFO - Output file at location C:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\output_files/20211021-162653_TEST_PHYSEE_SENSE_code_000170_to_000173.svg
+2021-10-21 16:26:53,495 - __main__ - INFO - 
+
+ ### Script ends, success = True ### 
+
+
+2021-10-21 16:29:50,856 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 16:29:50,857 - __main__ - INFO - 
+
+### TEST mode is enabled. Last code will be retrieved from and updated to test key in azure, not production. DO NOT USE THIS OUTPUT FOR PRODUCTION PURPOSES. ### 
+
+
+2021-10-21 16:29:50,860 - root - INFO - Number of datamatrices to be generated: 4
+2021-10-21 16:29:51,017 - modules.azure_table_handler - INFO - Azure Table Service Entity Retrieved {'PartitionKey': 'TEST', 'RowKey': 'TEST', 'NextCode': '000174'}
+2021-10-21 16:29:51,041 - modules.azure_table_handler - INFO - Azure Table Service Update to NextCode 000178 {'date': datetime.datetime(2021, 10, 21, 14, 29, 49, tzinfo=datetime.timezone.utc), 'etag': 'W/"datetime\'2021-10-21T14%3A29%3A50.1026323Z\'"', 'version': '2019-02-02'}
+2021-10-21 16:29:51,048 - root - INFO - Output file at location C:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\output_files/20211021-162951_TEST_PHYSEE_SENSE_code_000174_to_000177.svg
+2021-10-21 16:29:51,157 - __main__ - INFO - 
+
+ ### Script ends, success = True ### 
+
+
+2021-10-21 16:30:27,626 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 16:30:27,627 - __main__ - INFO - 
+
+### TEST mode is enabled. Last code will be retrieved from and updated to test key in azure, not production. DO NOT USE THIS OUTPUT FOR PRODUCTION PURPOSES. ### 
+
+
+2021-10-21 16:30:27,630 - root - INFO - Number of datamatrices to be generated: 4
+2021-10-21 16:30:27,757 - modules.azure_table_handler - INFO - Azure Table Service Entity Retrieved {'PartitionKey': 'TEST', 'RowKey': 'TEST', 'NextCode': '000178'}
+2021-10-21 16:30:27,784 - modules.azure_table_handler - INFO - Azure Table Service Update to NextCode 000182 {'date': datetime.datetime(2021, 10, 21, 14, 30, 26, tzinfo=datetime.timezone.utc), 'etag': 'W/"datetime\'2021-10-21T14%3A30%3A26.8462541Z\'"', 'version': '2019-02-02'}
+2021-10-21 16:30:27,788 - root - INFO - Output file at location C:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\output_files/20211021-163027_TEST_PHYSEE_SENSE_code_000178_to_000181.svg
+2021-10-21 16:30:27,893 - __main__ - INFO - 
+
+ ### Script ends, success = True ### 
+
+
+2021-10-21 16:35:54,338 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 16:35:54,339 - __main__ - INFO - 
+
+### TEST mode is enabled. Last code will be retrieved from and updated to test key in azure, not production. DO NOT USE THIS OUTPUT FOR PRODUCTION PURPOSES. ### 
+
+
+2021-10-21 16:35:54,342 - __main__ - ERROR - Unhandled exception
+Traceback (most recent call last):
+  File "script.py", line 160, in main
+    DmReplacer.convert_template()
+  File "script.py", line 83, in convert_template
+    print(height = self.template_root.find('height'))
+TypeError: 'height' is an invalid keyword argument for print()
+2021-10-21 16:35:54,344 - __main__ - INFO - 
+
+ ### Script ends, success = False ### 
+
+
+2021-10-21 16:36:07,440 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 16:36:07,441 - __main__ - INFO - 
+
+### TEST mode is enabled. Last code will be retrieved from and updated to test key in azure, not production. DO NOT USE THIS OUTPUT FOR PRODUCTION PURPOSES. ### 
+
+
+2021-10-21 16:36:07,444 - root - INFO - Number of datamatrices to be generated: 4
+2021-10-21 16:36:07,643 - modules.azure_table_handler - INFO - Azure Table Service Entity Retrieved {'PartitionKey': 'TEST', 'RowKey': 'TEST', 'NextCode': '000182'}
+2021-10-21 16:36:07,674 - modules.azure_table_handler - INFO - Azure Table Service Update to NextCode 000186 {'date': datetime.datetime(2021, 10, 21, 14, 36, 5, tzinfo=datetime.timezone.utc), 'etag': 'W/"datetime\'2021-10-21T14%3A36%3A06.7296013Z\'"', 'version': '2019-02-02'}
+2021-10-21 16:36:07,679 - root - INFO - Output file at location C:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\output_files/20211021-163607_TEST_PHYSEE_SENSE_code_000182_to_000185.svg
+2021-10-21 16:36:07,780 - __main__ - INFO - 
+
+ ### Script ends, success = True ### 
+
+
+2021-10-21 16:37:54,094 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 16:37:54,095 - __main__ - INFO - 
+
+### TEST mode is enabled. Last code will be retrieved from and updated to test key in azure, not production. DO NOT USE THIS OUTPUT FOR PRODUCTION PURPOSES. ### 
+
+
+2021-10-21 16:37:54,100 - root - INFO - Number of datamatrices to be generated: 4
+2021-10-21 16:37:54,288 - modules.azure_table_handler - INFO - Azure Table Service Entity Retrieved {'PartitionKey': 'TEST', 'RowKey': 'TEST', 'NextCode': '000186'}
+2021-10-21 16:37:54,317 - modules.azure_table_handler - INFO - Azure Table Service Update to NextCode 000190 {'date': datetime.datetime(2021, 10, 21, 14, 37, 53, tzinfo=datetime.timezone.utc), 'etag': 'W/"datetime\'2021-10-21T14%3A37%3A53.3775824Z\'"', 'version': '2019-02-02'}
+2021-10-21 16:37:54,321 - root - INFO - Output file at location C:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\output_files/20211021-163754_TEST_PHYSEE_SENSE_code_000186_to_000189.svg
+2021-10-21 16:37:54,418 - __main__ - INFO - 
+
+ ### Script ends, success = True ### 
+
+
+2021-10-21 16:38:40,141 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 16:38:40,142 - __main__ - INFO - 
+
+### TEST mode is enabled. Last code will be retrieved from and updated to test key in azure, not production. DO NOT USE THIS OUTPUT FOR PRODUCTION PURPOSES. ### 
+
+
+2021-10-21 16:38:40,146 - root - INFO - Number of datamatrices to be generated: 4
+2021-10-21 16:38:40,282 - modules.azure_table_handler - INFO - Azure Table Service Entity Retrieved {'PartitionKey': 'TEST', 'RowKey': 'TEST', 'NextCode': '000190'}
+2021-10-21 16:38:40,307 - modules.azure_table_handler - INFO - Azure Table Service Update to NextCode 000194 {'date': datetime.datetime(2021, 10, 21, 14, 38, 39, tzinfo=datetime.timezone.utc), 'etag': 'W/"datetime\'2021-10-21T14%3A38%3A39.3676437Z\'"', 'version': '2019-02-02'}
+2021-10-21 16:38:40,318 - root - INFO - Output file at location C:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\output_files/20211021-163840_TEST_PHYSEE_SENSE_code_000190_to_000193.svg
+2021-10-21 16:38:40,463 - __main__ - INFO - 
+
+ ### Script ends, success = True ### 
+
+
+2021-10-21 16:39:59,577 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 16:39:59,581 - root - INFO - Number of datamatrices to be generated: 4
+2021-10-21 16:39:59,771 - modules.azure_table_handler - INFO - Azure Table Service Entity Retrieved {'PartitionKey': 'PRODUCTION', 'RowKey': 'PRODUCTION', 'NextCode': '000004'}
+2021-10-21 16:39:59,797 - modules.azure_table_handler - INFO - Azure Table Service Update to NextCode 000008 {'date': datetime.datetime(2021, 10, 21, 14, 39, 58, tzinfo=datetime.timezone.utc), 'etag': 'W/"datetime\'2021-10-21T14%3A39%3A58.8561425Z\'"', 'version': '2019-02-02'}
+2021-10-21 16:39:59,803 - root - INFO - Output file at location C:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\output_files/20211021-163959_PRODUCTION_PHYSEE_SENSE_code_000004_to_000007.svg
+2021-10-21 16:39:59,897 - __main__ - INFO - 
+
+ ### Script ends, success = True ### 
+
+
+2021-10-21 16:42:03,270 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 16:42:03,275 - root - INFO - Number of datamatrices to be generated: 4
+2021-10-21 16:42:03,276 - __main__ - ERROR - Unhandled exception
+Traceback (most recent call last):
+  File "script.py", line 161, in main
+    DmReplacer.convert_template()
+  File "script.py", line 93, in convert_template
+    first = self.azure_table_get_first_and_update(num_replacements)
+  File "script.py", line 45, in azure_table_get_first_and_update
+    ath = azure_table_handler.AzureTableHandler(self.connection_string, self.mode)
+  File "C:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\modules\azure_table_handler.py", line 20, in __init__
+    self.table_client = TableClient.from_connection_string(self.connection_string, table_name=self.table_name)
+  File "C:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\venv\lib\site-packages\azure\data\tables\_table_client.py", line 120, in from_connection_string
+    conn_str=conn_str, credential=None, keyword_args=kwargs
+  File "C:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\venv\lib\site-packages\azure\data\tables\_base_client.py", line 342, in parse_connection_str
+    conn_settings = parse_connection_string(conn_str)
+  File "C:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\venv\lib\site-packages\azure\core\utils\_connection_string_parser.py", line 26, in parse_connection_string
+    cs_args = [s.split("=", 1) for s in conn_str.strip().rstrip(";").split(";")]
+AttributeError: 'NoneType' object has no attribute 'strip'
+2021-10-21 16:42:03,302 - __main__ - INFO - 
+
+ ### Script ends, success = False ### 
+
+
+2021-10-21 16:48:19,822 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 16:48:19,825 - __main__ - ERROR - Unhandled exception
+Traceback (most recent call last):
+  File "script.py", line 165, in main
+    if not DmReplacer.passed_prechecks(): sys.exit()
+TypeError: passed_prechecks() missing 1 required positional argument: 'target'
+2021-10-21 16:48:19,827 - __main__ - INFO - 
+
+ ### Script ends, success = False ### 
+
+
+2021-10-21 16:48:40,672 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 16:48:40,674 - __main__ - ERROR - Azure Table Storage connection string not set in environment variables.
+Traceback (most recent call last):
+  File "script.py", line 41, in passed_prechecks
+    raise ValueError("Azure Table Storage connection string not set in environment variables.")
+ValueError: Azure Table Storage connection string not set in environment variables.
+2021-10-21 16:48:40,677 - __main__ - ERROR - Prechecks not passed: Azure Table Storage connection string not set in environment variables.
+2021-10-21 16:48:40,678 - root - INFO - Number of datamatrices to be generated: 4
+2021-10-21 16:48:40,678 - __main__ - ERROR - Unhandled exception
+Traceback (most recent call last):
+  File "script.py", line 167, in main
+    DmReplacer.convert_template()
+  File "script.py", line 98, in convert_template
+    first = self.azure_table_get_first_and_update(num_replacements)
+  File "script.py", line 50, in azure_table_get_first_and_update
+    ath = azure_table_handler.AzureTableHandler(self.connection_string, self.mode)
+  File "C:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\modules\azure_table_handler.py", line 20, in __init__
+    self.table_client = TableClient.from_connection_string(self.connection_string, table_name=self.table_name)
+  File "C:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\venv\lib\site-packages\azure\data\tables\_table_client.py", line 120, in from_connection_string
+    conn_str=conn_str, credential=None, keyword_args=kwargs
+  File "C:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\venv\lib\site-packages\azure\data\tables\_base_client.py", line 342, in parse_connection_str
+    conn_settings = parse_connection_string(conn_str)
+  File "C:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\venv\lib\site-packages\azure\core\utils\_connection_string_parser.py", line 26, in parse_connection_string
+    cs_args = [s.split("=", 1) for s in conn_str.strip().rstrip(";").split(";")]
+AttributeError: 'NoneType' object has no attribute 'strip'
+2021-10-21 16:48:40,683 - __main__ - INFO - 
+
+ ### Script ends, success = False ### 
+
+
+2021-10-21 16:49:32,105 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 16:49:32,108 - __main__ - ERROR - Azure Table Storage connection string not set in environment variables.
+Traceback (most recent call last):
+  File "script.py", line 42, in passed_prechecks
+    raise ValueError("Azure Table Storage connection string not set in environment variables.")
+ValueError: Azure Table Storage connection string not set in environment variables.
+2021-10-21 16:49:32,109 - __main__ - ERROR - Prechecks not passed: Azure Table Storage connection string not set in environment variables.
+2021-10-21 16:49:32,110 - root - INFO - Number of datamatrices to be generated: 4
+2021-10-21 16:49:32,111 - __main__ - ERROR - Unhandled exception
+Traceback (most recent call last):
+  File "script.py", line 168, in main
+    DmReplacer.convert_template()
+  File "script.py", line 99, in convert_template
+    first = self.azure_table_get_first_and_update(num_replacements)
+  File "script.py", line 51, in azure_table_get_first_and_update
+    ath = azure_table_handler.AzureTableHandler(self.connection_string, self.mode)
+  File "C:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\modules\azure_table_handler.py", line 20, in __init__
+    self.table_client = TableClient.from_connection_string(self.connection_string, table_name=self.table_name)
+  File "C:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\venv\lib\site-packages\azure\data\tables\_table_client.py", line 120, in from_connection_string
+    conn_str=conn_str, credential=None, keyword_args=kwargs
+  File "C:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\venv\lib\site-packages\azure\data\tables\_base_client.py", line 342, in parse_connection_str
+    conn_settings = parse_connection_string(conn_str)
+  File "C:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\venv\lib\site-packages\azure\core\utils\_connection_string_parser.py", line 26, in parse_connection_string
+    cs_args = [s.split("=", 1) for s in conn_str.strip().rstrip(";").split(";")]
+AttributeError: 'NoneType' object has no attribute 'strip'
+2021-10-21 16:49:32,115 - __main__ - INFO - 
+
+ ### Script ends, success = False ### 
+
+
+2021-10-21 16:49:54,297 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 16:49:54,300 - __main__ - ERROR - Azure Table Storage connection string not set in environment variables.
+Traceback (most recent call last):
+  File "script.py", line 42, in passed_prechecks
+    raise ValueError("Azure Table Storage connection string not set in environment variables.")
+ValueError: Azure Table Storage connection string not set in environment variables.
+2021-10-21 16:49:54,301 - __main__ - ERROR - Prechecks not passed: Azure Table Storage connection string not set in environment variables.
+2021-10-21 16:50:07,772 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 16:50:07,776 - root - INFO - Number of datamatrices to be generated: 4
+2021-10-21 16:50:07,953 - modules.azure_table_handler - INFO - Azure Table Service Entity Retrieved {'PartitionKey': 'PRODUCTION', 'RowKey': 'PRODUCTION', 'NextCode': '000008'}
+2021-10-21 16:50:07,978 - modules.azure_table_handler - INFO - Azure Table Service Update to NextCode 000012 {'date': datetime.datetime(2021, 10, 21, 14, 50, 6, tzinfo=datetime.timezone.utc), 'etag': 'W/"datetime\'2021-10-21T14%3A50%3A07.0369015Z\'"', 'version': '2019-02-02'}
+2021-10-21 16:50:07,988 - root - INFO - Output file at location C:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\output_files/20211021-165007_PRODUCTION_PHYSEE_SENSE_code_000008_to_000011.svg
+2021-10-21 16:50:08,099 - __main__ - INFO - 
+
+ ### Script ends, success = True ### 
+
+
+2021-10-21 16:53:25,848 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 16:53:25,852 - root - INFO - Number of datamatrices to be generated: 4
+2021-10-21 16:53:26,057 - modules.azure_table_handler - INFO - Azure Table Service Entity Retrieved {'PartitionKey': 'PRODUCTION', 'RowKey': 'PRODUCTION', 'NextCode': '000012'}
+2021-10-21 16:53:26,082 - modules.azure_table_handler - INFO - Azure Table Service Update to NextCode 000016 {'date': datetime.datetime(2021, 10, 21, 14, 53, 24, tzinfo=datetime.timezone.utc), 'etag': 'W/"datetime\'2021-10-21T14%3A53%3A25.1417166Z\'"', 'version': '2019-02-02'}
+2021-10-21 16:53:26,086 - root - INFO - Output file at location C:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\output_files/20211021-165326_PRODUCTION_PHYSEE_SENSE_code_000012_to_000015.svg
+2021-10-21 16:53:26,186 - __main__ - INFO - 
+
+ ### Script ends, success = True ### 
+
+
+2021-10-21 16:53:46,657 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 16:53:46,660 - __main__ - ERROR - Inkscape is not found in location C:/Program Files/Inkscape/bin/inkscape.exes. Please update the environment variables or .env file.
+Traceback (most recent call last):
+  File "script.py", line 49, in passed_prechecks
+    raise FileExistsError(f'Inkscape is not found in location {self.inkscapepath}. Please update the environment variables or .env file.')
+FileExistsError: Inkscape is not found in location C:/Program Files/Inkscape/bin/inkscape.exes. Please update the environment variables or .env file.
+2021-10-21 16:53:46,662 - __main__ - ERROR - Prechecks not passed: Inkscape is not found in location C:/Program Files/Inkscape/bin/inkscape.exes. Please update the environment variables or .env file.
+2021-10-21 16:54:50,470 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 16:54:50,473 - __main__ - ERROR - Prechecks not passed: INKSCAPE_PATH not set in environment variables. Please update the environment variables or .env file.
+2021-10-21 16:55:23,890 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 16:55:23,893 - root - INFO - Number of datamatrices to be generated: 4
+2021-10-21 16:55:24,075 - modules.azure_table_handler - INFO - Azure Table Service Entity Retrieved {'PartitionKey': 'PRODUCTION', 'RowKey': 'PRODUCTION', 'NextCode': '000016'}
+2021-10-21 16:55:24,099 - modules.azure_table_handler - INFO - Azure Table Service Update to NextCode 000020 {'date': datetime.datetime(2021, 10, 21, 14, 55, 22, tzinfo=datetime.timezone.utc), 'etag': 'W/"datetime\'2021-10-21T14%3A55%3A23.1579766Z\'"', 'version': '2019-02-02'}
+2021-10-21 16:55:24,104 - root - INFO - Output file at location C:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\output_files/20211021-165524_PRODUCTION_PHYSEE_SENSE_code_000016_to_000019.svg
+2021-10-21 16:55:24,211 - __main__ - INFO - 
+
+ ### Script ends, success = True ### 
+
+
+2021-10-21 16:58:55,973 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 16:58:56,017 - root - INFO - Number of datamatrices to be generated: 4
+2021-10-21 16:58:56,205 - modules.azure_table_handler - INFO - Azure Table Service Entity Retrieved {'PartitionKey': 'PRODUCTION', 'RowKey': 'PRODUCTION', 'NextCode': '000020'}
+2021-10-21 16:58:56,230 - modules.azure_table_handler - INFO - Azure Table Service Update to NextCode 000024 {'date': datetime.datetime(2021, 10, 21, 14, 58, 54, tzinfo=datetime.timezone.utc), 'etag': 'W/"datetime\'2021-10-21T14%3A58%3A55.2869907Z\'"', 'version': '2019-02-02'}
+2021-10-21 16:58:56,236 - root - INFO - Output file at location C:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\output_files/20211021-165856_PRODUCTION_PHYSEE_SENSE_code_000020_to_000023.svg
+2021-10-21 16:58:56,310 - __main__ - ERROR - Unhandled exception
+Traceback (most recent call last):
+  File "script.py", line 183, in main
+    if target == 'toprinter': DmReplacer.send_to_printer()
+  File "script.py", line 139, in send_to_printer
+    win32api.ShellExecute (0, "print", self.output_file, self.printername, ".", 0)
+pywintypes.error: (31, 'ShellExecute', 'A device attached to the system is not functioning.')
+2021-10-21 16:58:56,312 - __main__ - INFO - 
+
+ ### Script ends, success = False ### 
+
+
+2021-10-21 17:04:01,406 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 17:04:01,409 - __main__ - ERROR - Prechecks not passed: printer_exists() missing 1 required positional argument: 'printername'
+2021-10-21 17:04:14,214 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 17:04:14,220 - root - INFO - Number of datamatrices to be generated: 4
+2021-10-21 17:04:14,400 - modules.azure_table_handler - INFO - Azure Table Service Entity Retrieved {'PartitionKey': 'PRODUCTION', 'RowKey': 'PRODUCTION', 'NextCode': '000024'}
+2021-10-21 17:04:14,425 - modules.azure_table_handler - INFO - Azure Table Service Update to NextCode 000028 {'date': datetime.datetime(2021, 10, 21, 15, 4, 13, tzinfo=datetime.timezone.utc), 'etag': 'W/"datetime\'2021-10-21T15%3A04%3A13.4816637Z\'"', 'version': '2019-02-02'}
+2021-10-21 17:04:14,431 - root - INFO - Output file at location C:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\output_files/20211021-170414_PRODUCTION_PHYSEE_SENSE_code_000024_to_000027.svg
+2021-10-21 17:04:14,478 - __main__ - ERROR - Unhandled exception
+Traceback (most recent call last):
+  File "script.py", line 186, in main
+    if target == 'toprinter': DmReplacer.send_to_printer()
+  File "script.py", line 142, in send_to_printer
+    win32api.ShellExecute (0, "print", self.output_file, self.printername, ".", 0)
+pywintypes.error: (31, 'ShellExecute', 'A device attached to the system is not functioning.')
+2021-10-21 17:04:14,480 - __main__ - INFO - 
+
+ ### Script ends, success = False ### 
+
+
+2021-10-21 17:04:30,444 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 17:04:30,447 - __main__ - ERROR - Prechecks not passed: PRINTER_NAME not set in environment variables. Please update the environment variables or .env file.
+2021-10-21 17:04:41,017 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 17:04:41,021 - __main__ - ERROR - Prechecks not passed: Printer Microsoft Print to PDFs does not exist. Please update the environment variables or .env file.
+2021-10-21 17:05:13,254 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 17:05:13,257 - __main__ - ERROR - Prechecks not passed: Printer [Microsoft Print to PDFs] does not exist. Please update the environment variables or .env file.
+2021-10-21 17:07:17,927 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 17:07:17,933 - root - INFO - Number of datamatrices to be generated: 4
+2021-10-21 17:07:18,092 - modules.azure_table_handler - INFO - Azure Table Service Entity Retrieved {'PartitionKey': 'PRODUCTION', 'RowKey': 'PRODUCTION', 'NextCode': '000028'}
+2021-10-21 17:07:18,117 - modules.azure_table_handler - INFO - Azure Table Service Update to NextCode 000032 {'date': datetime.datetime(2021, 10, 21, 15, 7, 16, tzinfo=datetime.timezone.utc), 'etag': 'W/"datetime\'2021-10-21T15%3A07%3A17.1738159Z\'"', 'version': '2019-02-02'}
+2021-10-21 17:07:18,121 - root - INFO - Output file at location C:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\output_files/20211021-170718_PRODUCTION_PHYSEE_SENSE_code_000028_to_000031.svg
+2021-10-21 17:07:18,167 - __main__ - ERROR - Send to printer did not succeed. To print manually, please open the output file in the following location: C:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\output_files/20211021-170718_PRODUCTION_PHYSEE_SENSE_code_000028_to_000031.svg
+2021-10-21 17:07:18,167 - __main__ - INFO - 
+
+ ### Script ends, success = True ### 
+
+
+2021-10-21 17:07:45,986 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 17:07:45,992 - root - INFO - Number of datamatrices to be generated: 4
+2021-10-21 17:07:46,137 - modules.azure_table_handler - INFO - Azure Table Service Entity Retrieved {'PartitionKey': 'PRODUCTION', 'RowKey': 'PRODUCTION', 'NextCode': '000032'}
+2021-10-21 17:07:46,162 - modules.azure_table_handler - INFO - Azure Table Service Update to NextCode 000036 {'date': datetime.datetime(2021, 10, 21, 15, 7, 44, tzinfo=datetime.timezone.utc), 'etag': 'W/"datetime\'2021-10-21T15%3A07%3A45.2185078Z\'"', 'version': '2019-02-02'}
+2021-10-21 17:07:46,168 - root - INFO - Output file at location C:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\output_files/20211021-170746_PRODUCTION_PHYSEE_SENSE_code_000032_to_000035.svg
+2021-10-21 17:07:46,210 - __main__ - ERROR - Send to printer did not succeed. To print manually, please open the output file in the following location: C:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\output_files/20211021-170746_PRODUCTION_PHYSEE_SENSE_code_000032_to_000035.svg
+2021-10-21 17:07:46,211 - __main__ - INFO - 
+
+ ### Script ends ### 
+
+
+2021-10-21 17:08:14,037 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 17:08:14,041 - root - INFO - Number of datamatrices to be generated: 4
+2021-10-21 17:08:14,171 - modules.azure_table_handler - INFO - Azure Table Service Entity Retrieved {'PartitionKey': 'PRODUCTION', 'RowKey': 'PRODUCTION', 'NextCode': '000036'}
+2021-10-21 17:08:14,202 - modules.azure_table_handler - INFO - Azure Table Service Update to NextCode 000040 {'date': datetime.datetime(2021, 10, 21, 15, 8, 13, tzinfo=datetime.timezone.utc), 'etag': 'W/"datetime\'2021-10-21T15%3A08%3A13.2582034Z\'"', 'version': '2019-02-02'}
+2021-10-21 17:08:14,208 - root - INFO - Output file at location C:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\output_files/20211021-170814_PRODUCTION_PHYSEE_SENSE_code_000036_to_000039.svg
+2021-10-21 17:08:14,261 - __main__ - ERROR - 
+Send to printer did not succeed. To print manually, please open the output file in the following location: C:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\output_files/20211021-170814_PRODUCTION_PHYSEE_SENSE_code_000036_to_000039.svg
+2021-10-21 17:08:14,262 - __main__ - INFO - 
+
+ ### Script ends ### 
+
+
+2021-10-21 17:08:31,502 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 17:08:31,508 - root - INFO - Number of datamatrices to be generated: 4
+2021-10-21 17:08:31,718 - modules.azure_table_handler - INFO - Azure Table Service Entity Retrieved {'PartitionKey': 'PRODUCTION', 'RowKey': 'PRODUCTION', 'NextCode': '000040'}
+2021-10-21 17:08:31,743 - modules.azure_table_handler - INFO - Azure Table Service Update to NextCode 000044 {'date': datetime.datetime(2021, 10, 21, 15, 8, 29, tzinfo=datetime.timezone.utc), 'etag': 'W/"datetime\'2021-10-21T15%3A08%3A30.7990037Z\'"', 'version': '2019-02-02'}
+2021-10-21 17:08:31,748 - root - INFO - Output file at location C:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\output_files/20211021-170831_PRODUCTION_PHYSEE_SENSE_code_000040_to_000043.svg
+2021-10-21 17:08:31,794 - __main__ - ERROR - 
+
+Send to printer did not succeed. To print manually, please open the output file in the following location: C:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\output_files/20211021-170831_PRODUCTION_PHYSEE_SENSE_code_000040_to_000043.svg 
+
+
+2021-10-21 17:08:31,796 - __main__ - INFO - 
+
+ ### Script ends ### 
+
+
+2021-10-21 17:09:03,834 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 17:09:03,838 - root - INFO - Number of datamatrices to be generated: 4
+2021-10-21 17:09:03,969 - modules.azure_table_handler - INFO - Azure Table Service Entity Retrieved {'PartitionKey': 'PRODUCTION', 'RowKey': 'PRODUCTION', 'NextCode': '000044'}
+2021-10-21 17:09:03,994 - modules.azure_table_handler - INFO - Azure Table Service Update to NextCode 000048 {'date': datetime.datetime(2021, 10, 21, 15, 9, 2, tzinfo=datetime.timezone.utc), 'etag': 'W/"datetime\'2021-10-21T15%3A09%3A03.0502504Z\'"', 'version': '2019-02-02'}
+2021-10-21 17:09:04,001 - root - INFO - Output file at location C:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\output_files/20211021-170904_PRODUCTION_PHYSEE_SENSE_code_000044_to_000047.svg
+2021-10-21 17:09:04,050 - __main__ - ERROR - Unhandled exception
+Traceback (most recent call last):
+  File "script.py", line 143, in send_to_printer
+    win32api.ShellExecute (0, "print", self.output_file, self.printername, ".", 0)
+pywintypes.error: (31, 'ShellExecute', 'A device attached to the system is not functioning.')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "script.py", line 190, in main
+    if target == 'toprinter': DmReplacer.send_to_printer()
+  File "script.py", line 145, in send_to_printer
+    logger.exception()
+TypeError: exception() missing 1 required positional argument: 'msg'
+2021-10-21 17:09:04,053 - __main__ - INFO - 
+
+ ### Script ends ### 
+
+
+2021-10-21 17:09:11,315 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 17:09:11,319 - root - INFO - Number of datamatrices to be generated: 4
+2021-10-21 17:09:11,432 - modules.azure_table_handler - INFO - Azure Table Service Entity Retrieved {'PartitionKey': 'PRODUCTION', 'RowKey': 'PRODUCTION', 'NextCode': '000048'}
+2021-10-21 17:09:11,456 - modules.azure_table_handler - INFO - Azure Table Service Update to NextCode 000052 {'date': datetime.datetime(2021, 10, 21, 15, 9, 10, tzinfo=datetime.timezone.utc), 'etag': 'W/"datetime\'2021-10-21T15%3A09%3A10.511912Z\'"', 'version': '2019-02-02'}
+2021-10-21 17:09:11,461 - root - INFO - Output file at location C:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\output_files/20211021-170911_PRODUCTION_PHYSEE_SENSE_code_000048_to_000051.svg
+2021-10-21 17:09:11,508 - __main__ - ERROR - (31, 'ShellExecute', 'A device attached to the system is not functioning.')
+Traceback (most recent call last):
+  File "script.py", line 143, in send_to_printer
+    win32api.ShellExecute (0, "print", self.output_file, self.printername, ".", 0)
+pywintypes.error: (31, 'ShellExecute', 'A device attached to the system is not functioning.')
+2021-10-21 17:09:11,509 - __main__ - ERROR - 
+
+Send to printer did not succeed. To print manually, please open the output file in the following location: C:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\output_files/20211021-170911_PRODUCTION_PHYSEE_SENSE_code_000048_to_000051.svg 
+
+
+2021-10-21 17:09:11,511 - __main__ - INFO - 
+
+ ### Script ends ### 
+
+
+2021-10-21 17:46:03,484 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 17:46:03,657 - root - INFO - Number of datamatrices to be generated: 4
+2021-10-21 17:46:03,857 - modules.azure_table_handler - INFO - Azure Table Service Entity Retrieved {'PartitionKey': 'PRODUCTION', 'RowKey': 'PRODUCTION', 'NextCode': '000000'}
+2021-10-21 17:46:03,884 - modules.azure_table_handler - INFO - Azure Table Service Update to NextCode 000004 {'date': datetime.datetime(2021, 10, 21, 15, 46, 2, tzinfo=datetime.timezone.utc), 'etag': 'W/"datetime\'2021-10-21T15%3A46%3A02.9343254Z\'"', 'version': '2019-02-02'}
+2021-10-21 17:46:03,895 - root - INFO - Output file at location C:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\output_files/20211021-174603_PRODUCTION_PHYSEE_SENSE_code_000000_to_000003.svg
+2021-10-21 17:46:04,014 - __main__ - INFO - 
+
+ ### Script ends ### 
+
+
+2021-10-21 17:47:06,553 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 17:47:06,556 - root - INFO - Number of datamatrices to be generated: 4
+2021-10-21 17:47:06,745 - modules.azure_table_handler - INFO - Azure Table Service Entity Retrieved {'PartitionKey': 'PRODUCTION', 'RowKey': 'PRODUCTION', 'NextCode': '000004'}
+2021-10-21 17:47:06,769 - modules.azure_table_handler - INFO - Azure Table Service Update to NextCode 000008 {'date': datetime.datetime(2021, 10, 21, 15, 47, 5, tzinfo=datetime.timezone.utc), 'etag': 'W/"datetime\'2021-10-21T15%3A47%3A05.8185199Z\'"', 'version': '2019-02-02'}
+2021-10-21 17:47:06,773 - root - INFO - Output file at location C:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\output_files/20211021-174706_PRODUCTION_PHYSEE_SENSE_code_000004_to_000007.svg
+2021-10-21 17:47:06,868 - __main__ - INFO - 
+
+ ### Script ends ### 
+
+
+2021-10-21 17:47:39,049 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 17:47:39,052 - root - INFO - Number of datamatrices to be generated: 4
+2021-10-21 17:47:39,179 - modules.azure_table_handler - INFO - Azure Table Service Entity Retrieved {'PartitionKey': 'PRODUCTION', 'RowKey': 'PRODUCTION', 'NextCode': '000008'}
+2021-10-21 17:47:39,204 - modules.azure_table_handler - INFO - Azure Table Service Update to NextCode 000012 {'date': datetime.datetime(2021, 10, 21, 15, 47, 37, tzinfo=datetime.timezone.utc), 'etag': 'W/"datetime\'2021-10-21T15%3A47%3A38.2535357Z\'"', 'version': '2019-02-02'}
+2021-10-21 17:47:39,209 - root - INFO - Output file at location C:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\output_files/20211021-174739_PRODUCTION_PHYSEE_SENSE_code_000008_to_000011.svg
+2021-10-21 17:47:39,300 - __main__ - INFO - 
+
+ ### Script ends ### 
+
+
+2021-10-21 17:48:00,456 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 17:48:00,459 - root - INFO - Number of datamatrices to be generated: 4
+2021-10-21 17:48:00,596 - modules.azure_table_handler - INFO - Azure Table Service Entity Retrieved {'PartitionKey': 'PRODUCTION', 'RowKey': 'PRODUCTION', 'NextCode': '000012'}
+2021-10-21 17:48:00,622 - modules.azure_table_handler - INFO - Azure Table Service Update to NextCode 000016 {'date': datetime.datetime(2021, 10, 21, 15, 47, 59, tzinfo=datetime.timezone.utc), 'etag': 'W/"datetime\'2021-10-21T15%3A47%3A59.6710088Z\'"', 'version': '2019-02-02'}
+2021-10-21 17:48:00,629 - root - INFO - Output file at location C:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\output_files/20211021-174800_PRODUCTION_PHYSEE_SENSE_code_000012_to_000015.svg
+2021-10-21 17:48:00,724 - __main__ - INFO - 
+
+ ### Script ends ### 
+
+
+2021-10-21 17:48:44,200 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 17:48:44,201 - __main__ - INFO - 
+
+### TEST mode is enabled. Last code will be retrieved from and updated to test key in azure, not production. DO NOT USE THIS OUTPUT FOR PRODUCTION PURPOSES. ### 
+
+
+2021-10-21 17:48:44,204 - root - INFO - Number of datamatrices to be generated: 4
+2021-10-21 17:48:44,403 - modules.azure_table_handler - INFO - Azure Table Service Entity Retrieved {'PartitionKey': 'TEST', 'RowKey': 'TEST', 'NextCode': '000000'}
+2021-10-21 17:48:44,426 - modules.azure_table_handler - INFO - Azure Table Service Update to NextCode 000004 {'date': datetime.datetime(2021, 10, 21, 15, 48, 42, tzinfo=datetime.timezone.utc), 'etag': 'W/"datetime\'2021-10-21T15%3A48%3A43.476406Z\'"', 'version': '2019-02-02'}
+2021-10-21 17:48:44,434 - root - INFO - Output file at location C:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\output_files/20211021-174844_TEST_PHYSEE_SENSE_code_000000_to_000003.svg
+2021-10-21 17:48:44,527 - __main__ - INFO - 
+
+ ### Script ends ### 
+
+
+2021-10-21 17:51:42,520 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 17:51:42,522 - __main__ - INFO - 
+
+### TEST mode is enabled. Last code will be retrieved from and updated to test key in azure, not production. DO NOT USE THIS OUTPUT FOR PRODUCTION PURPOSES. ### 
+
+
+2021-10-21 17:51:42,525 - root - INFO - Number of datamatrices to be generated: 4
+2021-10-21 17:51:42,702 - modules.azure_table_handler - INFO - Azure Table Service Entity Retrieved {'PartitionKey': 'TEST', 'RowKey': 'TEST', 'NextCode': '000000'}
+2021-10-21 17:51:42,728 - modules.azure_table_handler - INFO - Azure Table Service Update to NextCode 000004 {'date': datetime.datetime(2021, 10, 21, 15, 51, 41, tzinfo=datetime.timezone.utc), 'etag': 'W/"datetime\'2021-10-21T15%3A51%3A41.7748824Z\'"', 'version': '2019-02-02'}
+2021-10-21 17:51:42,733 - root - INFO - Output file at location C:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\output_files/20211021-175142_TEST_PHYSEE_SENSE_code_000000_to_000003.svg
+2021-10-21 17:51:42,827 - __main__ - INFO - 
+
+ ### Script ends ### 
+
+
+2021-10-21 18:05:44,830 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 18:05:44,830 - __main__ - INFO - 
+
+### TEST mode is enabled. Last code will be retrieved from and updated to test key in azure, not production. DO NOT USE THIS OUTPUT FOR PRODUCTION PURPOSES. ### 
+
+
+2021-10-21 18:05:44,834 - root - INFO - Number of datamatrices to be generated: 4
+2021-10-21 18:05:45,059 - modules.azure_table_handler - INFO - Azure Table Service Entity Retrieved {'PartitionKey': 'TEST', 'RowKey': 'TEST', 'NextCode': '000004'}
+2021-10-21 18:05:45,088 - modules.azure_table_handler - INFO - Azure Table Service Update to NextCode 000008 {'date': datetime.datetime(2021, 10, 21, 16, 5, 43, tzinfo=datetime.timezone.utc), 'etag': 'W/"datetime\'2021-10-21T16%3A05%3A44.1336371Z\'"', 'version': '2019-02-02'}
+2021-10-21 18:05:45,092 - root - INFO - Output file at location C:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\output_files/20211021-180545_TEST_PHYSEE_SENSE_code_000004_to_000007.svg
+2021-10-21 18:05:45,192 - __main__ - INFO - 
+
+ ### Script ends ### 
+
+
+2021-10-21 18:07:15,393 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 18:07:15,394 - __main__ - INFO - 
+
+### TEST mode is enabled. Last code will be retrieved from and updated to test key in azure, not production. DO NOT USE THIS OUTPUT FOR PRODUCTION PURPOSES. ### 
+
+
+2021-10-21 18:07:15,397 - root - INFO - Number of datamatrices to be generated: 4
+2021-10-21 18:07:15,623 - modules.azure_table_handler - INFO - Azure Table Service Entity Retrieved {'PartitionKey': 'TEST', 'RowKey': 'TEST', 'NextCode': '999998'}
+2021-10-21 18:07:15,624 - __main__ - ERROR - Unhandled exception
+Traceback (most recent call last):
+  File "script.py", line 191, in main
+    DmReplacer.convert_template()
+  File "script.py", line 118, in convert_template
+    first = self.azure_table_get_first_and_update(num_replacements)
+  File "script.py", line 72, in azure_table_get_first_and_update
+    raise(ValueError('All codes were used up. Last code of this file is more than 999999.'))
+ValueError: All codes were used up. Last code of this file is more than 999999.
+2021-10-21 18:07:15,633 - __main__ - INFO - 
+
+ ### Script ends ### 
+
+
+2021-10-21 18:08:13,793 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 18:08:13,794 - __main__ - INFO - 
+
+### TEST mode is enabled. Last code will be retrieved from and updated to test key in azure, not production. DO NOT USE THIS OUTPUT FOR PRODUCTION PURPOSES. ### 
+
+
+2021-10-21 18:08:13,798 - root - INFO - Number of datamatrices to be generated: 4
+2021-10-21 18:08:13,936 - modules.azure_table_handler - INFO - Azure Table Service Entity Retrieved {'PartitionKey': 'TEST', 'RowKey': 'TEST', 'NextCode': '999998'}
+2021-10-21 18:08:13,936 - __main__ - ERROR - Unhandled exception
+Traceback (most recent call last):
+  File "script.py", line 191, in main
+    DmReplacer.convert_template()
+  File "script.py", line 118, in convert_template
+    first = self.azure_table_get_first_and_update(num_replacements)
+  File "script.py", line 72, in azure_table_get_first_and_update
+    raise(ValueError('All codes were used up. Last code of this file is more than 999999.'))
+ValueError: All codes were used up. Last code of this file is more than 999999.
+2021-10-21 18:08:13,941 - __main__ - INFO - 
+
+ ### Script ends ### 
+
+
+2021-10-21 18:08:30,204 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 18:08:30,205 - __main__ - INFO - 
+
+### TEST mode is enabled. Last code will be retrieved from and updated to test key in azure, not production. DO NOT USE THIS OUTPUT FOR PRODUCTION PURPOSES. ### 
+
+
+2021-10-21 18:08:30,208 - root - INFO - Number of datamatrices to be generated: 4
+2021-10-21 18:08:30,451 - modules.azure_table_handler - INFO - Azure Table Service Entity Retrieved {'PartitionKey': 'TEST', 'RowKey': 'TEST', 'NextCode': '000000'}
+2021-10-21 18:08:30,478 - modules.azure_table_handler - INFO - Azure Table Service Update to NextCode 000004 {'date': datetime.datetime(2021, 10, 21, 16, 8, 29, tzinfo=datetime.timezone.utc), 'etag': 'W/"datetime\'2021-10-21T16%3A08%3A29.5236767Z\'"', 'version': '2019-02-02'}
+2021-10-21 18:08:30,486 - root - INFO - Output file at location C:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\output_files/20211021-180830_TEST_PHYSEE_SENSE_code_000000_to_000003.svg
+2021-10-21 18:08:30,583 - __main__ - INFO - 
+
+ ### Script ends ### 
+
+
+2021-10-21 18:09:25,699 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 18:09:25,700 - __main__ - INFO - 
+
+### TEST mode is enabled. Last code will be retrieved from and updated to test key in azure, not production. DO NOT USE THIS OUTPUT FOR PRODUCTION PURPOSES. ### 
+
+
+2021-10-21 18:09:25,703 - root - INFO - Number of datamatrices to be generated: 4
+2021-10-21 18:09:25,827 - modules.azure_table_handler - INFO - Azure Table Service Entity Retrieved {'PartitionKey': 'TEST', 'RowKey': 'TEST', 'NextCode': '000004'}
+2021-10-21 18:09:25,861 - modules.azure_table_handler - INFO - Azure Table Service Update to NextCode 000008 {'date': datetime.datetime(2021, 10, 21, 16, 9, 24, tzinfo=datetime.timezone.utc), 'etag': 'W/"datetime\'2021-10-21T16%3A09%3A24.8992427Z\'"', 'version': '2019-02-02'}
+2021-10-21 18:09:25,870 - root - INFO - Output file at location C:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\output_files/20211021-180925_TEST_PHYSEE_SENSE_code_000004_to_000007.svg
+2021-10-21 18:09:25,996 - __main__ - INFO - 
+
+ ### Script ends ### 
+
+
+2021-10-21 18:12:25,850 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 18:12:25,852 - __main__ - INFO - 
+
+### TEST mode is enabled. Last code will be retrieved from and updated to test key in azure, not production. DO NOT USE THIS OUTPUT FOR PRODUCTION PURPOSES. ### 
+
+
+2021-10-21 18:12:25,855 - root - INFO - Number of datamatrices to be generated: 4
+2021-10-21 18:12:26,034 - modules.azure_table_handler - INFO - Azure Table Service Entity Retrieved {'PartitionKey': 'TEST', 'RowKey': 'TEST', 'NextCode': '000008'}
+2021-10-21 18:12:26,060 - modules.azure_table_handler - INFO - Azure Table Service Update to NextCode 000012 {'date': datetime.datetime(2021, 10, 21, 16, 12, 24, tzinfo=datetime.timezone.utc), 'etag': 'W/"datetime\'2021-10-21T16%3A12%3A25.1039637Z\'"', 'version': '2019-02-02'}
+2021-10-21 18:12:26,065 - root - INFO - Output file at location C:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\output_files/20211021-181226_TEST_PHYSEE_SENSE_code_000008_to_000011.svg
+2021-10-21 18:12:26,165 - __main__ - INFO - 
+
+ ### Script ends ### 
+
+
+2021-10-21 18:13:39,275 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 18:13:39,276 - __main__ - INFO - 
+
+### TEST mode is enabled. Last code will be retrieved from and updated to test key in azure, not production. DO NOT USE THIS OUTPUT FOR PRODUCTION PURPOSES. ### 
+
+
+2021-10-21 18:13:39,281 - root - INFO - Number of datamatrices to be generated: 4
+2021-10-21 18:13:39,467 - modules.azure_table_handler - INFO - Azure Table Service Entity Retrieved {'PartitionKey': 'TEST', 'RowKey': 'TEST', 'NextCode': '000012'}
+2021-10-21 18:13:39,492 - modules.azure_table_handler - INFO - Azure Table Service Update to NextCode 000016 {'date': datetime.datetime(2021, 10, 21, 16, 13, 37, tzinfo=datetime.timezone.utc), 'etag': 'W/"datetime\'2021-10-21T16%3A13%3A38.5362759Z\'"', 'version': '2019-02-02'}
+2021-10-21 18:13:39,498 - root - INFO - Output file at location C:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\output_files/20211021-181339_TEST_PHYSEE_SENSE_code_000012_to_000015.svg
+2021-10-21 18:13:39,601 - __main__ - INFO - 
+
+ ### Script ends ### 
+
+
+2021-10-21 18:14:16,574 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 18:14:16,575 - __main__ - INFO - 
+
+### TEST mode is enabled. Last code will be retrieved from and updated to test key in azure, not production. DO NOT USE THIS OUTPUT FOR PRODUCTION PURPOSES. ### 
+
+
+2021-10-21 18:14:16,578 - root - INFO - Number of datamatrices to be generated: 4
+2021-10-21 18:14:16,704 - modules.azure_table_handler - INFO - Azure Table Service Entity Retrieved {'PartitionKey': 'TEST', 'RowKey': 'TEST', 'NextCode': '000016'}
+2021-10-21 18:14:16,737 - modules.azure_table_handler - INFO - Azure Table Service Update to NextCode 000020 {'date': datetime.datetime(2021, 10, 21, 16, 14, 15, tzinfo=datetime.timezone.utc), 'etag': 'W/"datetime\'2021-10-21T16%3A14%3A15.7801285Z\'"', 'version': '2019-02-02'}
+2021-10-21 18:14:16,743 - root - INFO - Output file at location C:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\output_files/20211021-181416_TEST_PHYSEE_SENSE_code_000016_to_000019.svg
+2021-10-21 18:14:16,844 - __main__ - INFO - 
+
+ ### Script ends ### 
+
+
+2021-10-21 18:15:36,682 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 18:15:36,685 - root - INFO - Number of datamatrices to be generated: 4
+2021-10-21 18:15:36,885 - modules.azure_table_handler - INFO - Azure Table Service Entity Retrieved {'PartitionKey': 'PRODUCTION', 'RowKey': 'PRODUCTION', 'NextCode': '000000'}
+2021-10-21 18:15:36,916 - modules.azure_table_handler - INFO - Azure Table Service Update to NextCode 000004 {'date': datetime.datetime(2021, 10, 21, 16, 15, 35, tzinfo=datetime.timezone.utc), 'etag': 'W/"datetime\'2021-10-21T16%3A15%3A35.9585964Z\'"', 'version': '2019-02-02'}
+2021-10-21 18:15:36,922 - root - INFO - Output file at location C:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\output_files/20211021-181536_PRODUCTION_PHYSEE_SENSE_code_000000_to_000003.svg
+2021-10-21 18:15:37,013 - __main__ - INFO - 
+
+ ### Script ends ### 
+
+
+2021-10-21 18:19:17,539 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 18:19:17,541 - __main__ - INFO - 
+
+### TEST mode is enabled. Last code will be retrieved from and updated to test key in azure, not production. DO NOT USE THIS OUTPUT FOR PRODUCTION PURPOSES. ### 
+
+
+2021-10-21 18:19:17,541 - __main__ - ERROR - Unhandled exception
+Traceback (most recent call last):
+  File "script.py", line 51, in main
+    DmReplacer = PlaceDatamatricesInTemplate(is_test)
+NameError: name 'PlaceDatamatricesInTemplate' is not defined
+2021-10-21 18:19:17,543 - __main__ - INFO - 
+
+ ### Script ends ### 
+
+
+2021-10-21 18:19:48,750 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 18:19:48,751 - __main__ - INFO - 
+
+### TEST mode is enabled. Last code will be retrieved from and updated to test key in azure, not production. DO NOT USE THIS OUTPUT FOR PRODUCTION PURPOSES. ### 
+
+
+2021-10-21 18:19:48,755 - root - INFO - Number of datamatrices to be generated: 4
+2021-10-21 18:19:48,934 - modules.azure_table_handler - INFO - Azure Table Service Entity Retrieved {'PartitionKey': 'TEST', 'RowKey': 'TEST', 'NextCode': '000020'}
+2021-10-21 18:19:48,960 - modules.azure_table_handler - INFO - Azure Table Service Update to NextCode 000024 {'date': datetime.datetime(2021, 10, 21, 16, 19, 47, tzinfo=datetime.timezone.utc), 'etag': 'W/"datetime\'2021-10-21T16%3A19%3A48.0014298Z\'"', 'version': '2019-02-02'}
+2021-10-21 18:19:48,966 - root - INFO - Output file at location C:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\modules\output_files/20211021-181948_TEST_PHYSEE_SENSE_code_000020_to_000023.svg
+2021-10-21 18:19:48,968 - __main__ - ERROR - Unhandled exception
+Traceback (most recent call last):
+  File "script.py", line 55, in main
+    DmReplacer.convert_template()
+  File "C:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\modules\template_replacer.py", line 138, in convert_template
+    template_tree.write(self.output_file)
+  File "src\lxml\etree.pyx", line 2057, in lxml.etree._ElementTree.write
+  File "src\lxml\serializer.pxi", line 746, in lxml.etree._tofilelike
+  File "src\lxml\serializer.pxi", line 813, in lxml.etree._create_output_buffer
+  File "src\lxml\serializer.pxi", line 803, in lxml.etree._create_output_buffer
+FileNotFoundError: [Errno 2] No such file or directory
+2021-10-21 18:19:48,971 - __main__ - INFO - 
+
+ ### Script ends ### 
+
+
+2021-10-21 18:20:41,877 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 18:20:41,878 - __main__ - INFO - 
+
+### TEST mode is enabled. Last code will be retrieved from and updated to test key in azure, not production. DO NOT USE THIS OUTPUT FOR PRODUCTION PURPOSES. ### 
+
+
+2021-10-21 18:20:41,881 - root - INFO - Number of datamatrices to be generated: 4
+2021-10-21 18:20:42,010 - modules.azure_table_handler - INFO - Azure Table Service Entity Retrieved {'PartitionKey': 'TEST', 'RowKey': 'TEST', 'NextCode': '000024'}
+2021-10-21 18:20:42,041 - modules.azure_table_handler - INFO - Azure Table Service Update to NextCode 000028 {'date': datetime.datetime(2021, 10, 21, 16, 20, 40, tzinfo=datetime.timezone.utc), 'etag': 'W/"datetime\'2021-10-21T16%3A20%3A41.0822736Z\'"', 'version': '2019-02-02'}
+2021-10-21 18:20:42,048 - root - INFO - Output file at location C:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\output_files/20211021-182042_TEST_PHYSEE_SENSE_code_000024_to_000027.svg
+2021-10-21 18:20:42,153 - __main__ - INFO - 
+
+ ### Script ends ### 
+
+
+2021-10-21 18:21:27,088 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 18:21:27,089 - __main__ - INFO - 
+
+### TEST mode is enabled. Last code will be retrieved from and updated to test key in azure, not production. DO NOT USE THIS OUTPUT FOR PRODUCTION PURPOSES. ### 
+
+
+2021-10-21 18:21:27,105 - root - INFO - Number of datamatrices to be generated: 4
+2021-10-21 18:21:27,334 - modules.azure_table_handler - INFO - Azure Table Service Entity Retrieved {'PartitionKey': 'TEST', 'RowKey': 'TEST', 'NextCode': '000028'}
+2021-10-21 18:21:27,364 - modules.azure_table_handler - INFO - Azure Table Service Update to NextCode 000032 {'date': datetime.datetime(2021, 10, 21, 16, 21, 26, tzinfo=datetime.timezone.utc), 'etag': 'W/"datetime\'2021-10-21T16%3A21%3A26.4055248Z\'"', 'version': '2019-02-02'}
+2021-10-21 18:21:27,373 - root - INFO - Output file at location C:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\output_files/20211021-182127_TEST_PHYSEE_SENSE_code_000028_to_000031.svg
+2021-10-21 18:21:27,422 - modules.template_replacer - ERROR - (31, 'ShellExecute', 'A device attached to the system is not functioning.')
+Traceback (most recent call last):
+  File "C:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\modules\template_replacer.py", line 145, in send_to_printer
+    win32api.ShellExecute (0, "print", self.output_file, self.printername, ".", 0)
+pywintypes.error: (31, 'ShellExecute', 'A device attached to the system is not functioning.')
+2021-10-21 18:21:27,424 - modules.template_replacer - ERROR - 
+
+Send to printer did not succeed. To print manually, please open the output file in the following location: C:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\output_files/20211021-182127_TEST_PHYSEE_SENSE_code_000028_to_000031.svg 
+
+
+2021-10-21 18:21:27,425 - __main__ - INFO - 
+
+ ### Script ends ### 
+
+
+2021-10-21 18:29:03,379 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 18:29:03,380 - __main__ - INFO - 
+
+### TEST mode is enabled. Last code will be retrieved from and updated to test key in azure, not production. DO NOT USE THIS OUTPUT FOR PRODUCTION PURPOSES. ### 
+
+
+2021-10-21 18:29:03,386 - root - INFO - Number of datamatrices to be generated: 4
+2021-10-21 18:29:03,603 - modules.azure_table_handler - INFO - Azure Table Service Entity Retrieved {'PartitionKey': 'TEST', 'RowKey': 'TEST', 'NextCode': '000032'}
+2021-10-21 18:29:03,635 - modules.azure_table_handler - INFO - Azure Table Service Update to NextCode 000036 {'date': datetime.datetime(2021, 10, 21, 16, 29, 2, tzinfo=datetime.timezone.utc), 'etag': 'W/"datetime\'2021-10-21T16%3A29%3A02.6764557Z\'"', 'version': '2019-02-02'}
+2021-10-21 18:29:03,646 - root - INFO - Output file at location C:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\output_files/20211021-182903_TEST_PHYSEE_SENSE_code_000032_to_000035.svg
+2021-10-21 18:29:03,690 - modules.template_replacer - ERROR - (31, 'ShellExecute', 'A device attached to the system is not functioning.')
+Traceback (most recent call last):
+  File "C:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\modules\template_replacer.py", line 140, in send_to_printer
+    win32api.ShellExecute (0, "print", self.output_file, self.printername, ".", 0)
+pywintypes.error: (31, 'ShellExecute', 'A device attached to the system is not functioning.')
+2021-10-21 18:29:03,694 - modules.template_replacer - ERROR - 
+
+Send to printer did not succeed. To print manually, please open the output file in the following location: C:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\output_files/20211021-182903_TEST_PHYSEE_SENSE_code_000032_to_000035.svg 
+
+
+2021-10-21 18:29:03,695 - __main__ - INFO - 
+
+ ### Script ends ### 
+
+
+2021-10-21 18:31:42,867 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 18:31:42,868 - __main__ - INFO - 
+
+### TEST mode is enabled. Last code will be retrieved from and updated to test key in azure, not production. DO NOT USE THIS OUTPUT FOR PRODUCTION PURPOSES. ### 
+
+
+2021-10-21 18:31:42,873 - root - INFO - Number of datamatrices to be generated: 4
+2021-10-21 18:31:43,061 - modules.azure_table_handler - INFO - Azure Table Service Entity Retrieved {'PartitionKey': 'TEST', 'RowKey': 'TEST', 'NextCode': '000036'}
+2021-10-21 18:31:43,087 - modules.azure_table_handler - INFO - Azure Table Service Update to NextCode 000040 {'date': datetime.datetime(2021, 10, 21, 16, 31, 42, tzinfo=datetime.timezone.utc), 'etag': 'W/"datetime\'2021-10-21T16%3A31%3A42.1279934Z\'"', 'version': '2019-02-02'}
+2021-10-21 18:31:43,094 - root - INFO - Output file at location C:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\output_files/20211021-183143_TEST_PHYSEE_SENSE_code_000036_to_000039.svg
+2021-10-21 18:31:43,140 - modules.template_replacer - ERROR - (31, 'ShellExecute', 'A device attached to the system is not functioning.')
+Traceback (most recent call last):
+  File "C:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\modules\template_replacer.py", line 140, in send_to_printer
+    win32api.ShellExecute (0, "print", self.output_file, self.printername, ".", 0)
+pywintypes.error: (31, 'ShellExecute', 'A device attached to the system is not functioning.')
+2021-10-21 18:31:43,142 - modules.template_replacer - ERROR - 
+
+Send to printer did not succeed. To print manually, please open the output file in the following location: C:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\output_files/20211021-183143_TEST_PHYSEE_SENSE_code_000036_to_000039.svg 
+
+
+2021-10-21 18:31:43,143 - __main__ - INFO - 
+
+ ### Script ends ### 
+
+
+2021-10-21 18:32:29,712 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 18:32:29,713 - __main__ - INFO - 
+
+### TEST mode is enabled. Last code will be retrieved from and updated to test key in azure, not production. DO NOT USE THIS OUTPUT FOR PRODUCTION PURPOSES. ### 
+
+
+2021-10-21 18:32:29,719 - root - INFO - Number of datamatrices to be generated: 4
+2021-10-21 18:32:29,862 - modules.azure_table_handler - INFO - Azure Table Service Entity Retrieved {'PartitionKey': 'TEST', 'RowKey': 'TEST', 'NextCode': '000040'}
+2021-10-21 18:32:29,889 - modules.azure_table_handler - INFO - Azure Table Service Update to NextCode 000044 {'date': datetime.datetime(2021, 10, 21, 16, 32, 28, tzinfo=datetime.timezone.utc), 'etag': 'W/"datetime\'2021-10-21T16%3A32%3A28.929428Z\'"', 'version': '2019-02-02'}
+2021-10-21 18:32:29,894 - root - INFO - Output file at location C:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\output_files/20211021-183229_TEST_PHYSEE_SENSE_code_000040_to_000043.svg
+2021-10-21 18:32:29,935 - modules.template_replacer - ERROR - (31, 'ShellExecute', 'A device attached to the system is not functioning.')
+Traceback (most recent call last):
+  File "C:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\modules\template_replacer.py", line 140, in send_to_printer
+    win32api.ShellExecute (0, "print", self.output_file, self.printername, ".", 0)
+pywintypes.error: (31, 'ShellExecute', 'A device attached to the system is not functioning.')
+2021-10-21 18:32:29,937 - modules.template_replacer - ERROR - 
+
+Send to printer did not succeed. To print manually, please open the output file in the following location: C:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\output_files/20211021-183229_TEST_PHYSEE_SENSE_code_000040_to_000043.svg 
+
+
+2021-10-21 18:32:29,939 - __main__ - INFO - 
+
+ ### Script ends ### 
+
+
+2021-10-21 18:32:57,366 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-21 18:32:57,368 - __main__ - INFO - 
+
+### TEST mode is enabled. Last code will be retrieved from and updated to test key in azure, not production. DO NOT USE THIS OUTPUT FOR PRODUCTION PURPOSES. ### 
+
+
+2021-10-21 18:32:57,378 - root - INFO - Number of datamatrices to be generated: 4
+2021-10-21 18:32:57,615 - modules.azure_table_handler - INFO - Azure Table Service Entity Retrieved {'PartitionKey': 'TEST', 'RowKey': 'TEST', 'NextCode': '000044'}
+2021-10-21 18:32:57,654 - modules.azure_table_handler - INFO - Azure Table Service Update to NextCode 000048 {'date': datetime.datetime(2021, 10, 21, 16, 32, 56, tzinfo=datetime.timezone.utc), 'etag': 'W/"datetime\'2021-10-21T16%3A32%3A56.6936659Z\'"', 'version': '2019-02-02'}
+2021-10-21 18:34:01,599 - __main__ - ERROR - Unhandled exception
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\script.py", line 51, in main
+    DmReplacer.convert_template()
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\modules\template_replacer.py", line 123, in convert_template
+    matrix = DmGen.gen_datamatrix(w, x, y)
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\modules\datamatrix_generator.py", line 30, in gen_datamatrix
+    code = f"{next(self.gen):06d}"
+  File "c:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\modules\datamatrix_generator.py", line 23, in gen_next
+    if codes_generated > self.num_codes: raise ValueError('CRITICAL: Somehow the script is trying to produce more datamatrices than were reserved in the Azure Table Service. To protect this service from generating duplicate codes the scripts has shut down.')
+ValueError: CRITICAL: Somehow the script is trying to produce more datamatrices than were reserved in the Azure Table Service. To protect this service from generating duplicate codes the scripts has shut down.
+2021-10-21 18:34:01,605 - __main__ - INFO - 
+
+ ### Script ends ### 
+
+
+2021-10-22 09:36:39,980 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-22 09:36:39,982 - __main__ - INFO - 
+
+### TEST mode is enabled. Last code will be retrieved from and updated to test key in azure, not production. DO NOT USE THIS OUTPUT FOR PRODUCTION PURPOSES. ### 
+
+
+2021-10-22 09:36:40,003 - root - INFO - Number of datamatrices to be generated: 4
+2021-10-22 09:36:40,236 - modules.azure_table_handler - INFO - Azure Table Service Entity Retrieved {'PartitionKey': 'TEST', 'RowKey': 'TEST', 'NextCode': '000048'}
+2021-10-22 09:36:40,265 - modules.azure_table_handler - INFO - Azure Table Service Update to NextCode 000052 {'date': datetime.datetime(2021, 10, 22, 7, 36, 39, tzinfo=datetime.timezone.utc), 'etag': 'W/"datetime\'2021-10-22T07%3A36%3A40.2472986Z\'"', 'version': '2019-02-02'}
+2021-10-22 09:36:40,274 - root - INFO - Output file at location C:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\output_files/20211022-093640_TEST_PHYSEE_SENSE_code_000048_to_000051.svg
+2021-10-22 09:36:40,469 - __main__ - INFO - 
+
+ ### Script ends ### 
+
+
+2021-10-22 09:39:49,203 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-22 09:39:49,206 - root - INFO - Number of datamatrices to be generated: 4
+2021-10-22 09:39:49,393 - modules.azure_table_handler - INFO - Azure Table Service Entity Retrieved {'PartitionKey': 'PRODUCTION', 'RowKey': 'PRODUCTION', 'NextCode': '000004'}
+2021-10-22 09:39:49,417 - modules.azure_table_handler - INFO - Azure Table Service Update to NextCode 000008 {'date': datetime.datetime(2021, 10, 22, 7, 39, 49, tzinfo=datetime.timezone.utc), 'etag': 'W/"datetime\'2021-10-22T07%3A39%3A49.4008561Z\'"', 'version': '2019-02-02'}
+2021-10-22 09:39:49,421 - root - INFO - Output file at location C:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\output_files/20211022-093949_PRODUCTION_PHYSEE_SENSE_code_000004_to_000007.svg
+2021-10-22 09:39:49,536 - __main__ - INFO - 
+
+ ### Script ends ### 
+
+
+2021-10-22 09:53:46,685 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-22 09:53:46,686 - __main__ - INFO - 
+
+### TEST mode is enabled. Last code will be retrieved from and updated to test key in azure, not production. DO NOT USE THIS OUTPUT FOR PRODUCTION PURPOSES. ### 
+
+
+2021-10-22 09:53:46,689 - root - INFO - Number of datamatrices to be generated: 4
+2021-10-22 09:53:46,889 - root - ERROR - Server failed to authenticate the request. Make sure the value of Authorization header is formed correctly including the signature.
+RequestId:a430b00c-8002-003b-2d19-c7736b000000
+Time:2021-10-22T07:53:46.8691484Z
+ErrorCode:AuthenticationFailed
+Traceback (most recent call last):
+  File "C:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\venv\lib\site-packages\azure\data\tables\_table_client.py", line 617, in get_entity
+    **kwargs
+  File "C:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\venv\lib\site-packages\azure\data\tables\_generated\operations\_table_operations.py", line 486, in query_entity_with_partition_and_row_key
+    raise HttpResponseError(response=response, model=error)
+azure.core.exceptions.HttpResponseError: Operation returned an invalid status 'Server failed to authenticate the request. Make sure the value of Authorization header is formed correctly including the signature.'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\modules\azure_table_handler.py", line 24, in get_datamatrix_code
+    entity = self.table_client.get_entity(partition_key=self.partition_key, row_key=self.row_key)
+  File "C:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\venv\lib\site-packages\azure\core\tracing\decorator.py", line 83, in wrapper_use_tracer
+    return func(*args, **kwargs)
+  File "C:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\venv\lib\site-packages\azure\data\tables\_table_client.py", line 620, in get_entity
+    _process_table_error(error)
+  File "C:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\venv\lib\site-packages\azure\data\tables\_error.py", line 153, in _process_table_error
+    _reraise_error(decoded_error)
+  File "C:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\venv\lib\site-packages\azure\data\tables\_error.py", line 145, in _reraise_error
+    raise decoded_error.with_traceback(exc_traceback)
+  File "C:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\venv\lib\site-packages\azure\data\tables\_table_client.py", line 617, in get_entity
+    **kwargs
+  File "C:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\venv\lib\site-packages\azure\data\tables\_generated\operations\_table_operations.py", line 486, in query_entity_with_partition_and_row_key
+    raise HttpResponseError(response=response, model=error)
+azure.core.exceptions.ClientAuthenticationError: Server failed to authenticate the request. Make sure the value of Authorization header is formed correctly including the signature.
+RequestId:a430b00c-8002-003b-2d19-c7736b000000
+Time:2021-10-22T07:53:46.8691484Z
+ErrorCode:AuthenticationFailed
+2021-10-22 09:53:46,936 - root - ERROR - Server failed to authenticate the request. Make sure the value of Authorization header is formed correctly including the signature.
+RequestId:a430b00c-8002-003b-2d19-c7736b000000
+Time:2021-10-22T07:53:46.8691484Z
+ErrorCode:AuthenticationFailed 
+
+ Something went wrong while trying to retrieve the last code from the Azure Table. Do you have internet? Has the Azure service been modified?
+2021-10-22 09:54:24,327 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-22 09:54:24,328 - __main__ - INFO - 
+
+### TEST mode is enabled. Last code will be retrieved from and updated to test key in azure, not production. DO NOT USE THIS OUTPUT FOR PRODUCTION PURPOSES. ### 
+
+
+2021-10-22 09:54:24,332 - root - INFO - Number of datamatrices to be generated: 4
+2021-10-22 09:54:24,503 - modules.azure_table_handler - INFO - Azure Table Service Entity Retrieved {'PartitionKey': 'TEST', 'RowKey': 'TEST', 'NextCode': '000052'}
+2021-10-22 09:54:24,526 - modules.azure_table_handler - INFO - Azure Table Service Update to NextCode 000056 {'date': datetime.datetime(2021, 10, 22, 7, 54, 24, tzinfo=datetime.timezone.utc), 'etag': 'W/"datetime\'2021-10-22T07%3A54%3A24.5069444Z\'"', 'version': '2019-02-02'}
+2021-10-22 09:54:24,530 - root - INFO - Output file at location C:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\output_files/20211022-095424_TEST_PHYSEE_SENSE_code_000052_to_000055.svg
+2021-10-22 09:54:24,628 - __main__ - INFO - 
+
+ ### Script ends ### 
+
+
+2021-10-22 10:11:53,833 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-22 10:12:27,257 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-22 10:12:52,013 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-22 10:12:52,015 - __main__ - ERROR - option --blabla not recognized
+2021-10-22 10:13:45,381 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-22 10:13:45,383 - __main__ - ERROR - option --blabla not recognized
+2021-10-22 10:14:20,550 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-22 10:14:20,552 - __main__ - ERROR - option --blabla not recognized
+2021-10-22 10:17:11,899 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-22 10:17:11,900 - __main__ - ERROR - option --blabla not recognized
+2021-10-22 10:17:31,943 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-22 10:17:31,944 - __main__ - ERROR - option --blabla not recognized
+2021-10-22 10:22:22,690 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-22 10:22:22,691 - __main__ - ERROR - option --blabla not recognized
+2021-10-22 10:40:55,236 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-22 10:47:14,423 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
