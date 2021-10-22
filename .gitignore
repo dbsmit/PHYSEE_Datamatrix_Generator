@@ -142,6 +142,7 @@ notebook.py
 
 #all logs
 logs/*
+!logs/placeholder
 
 test_templates/
 
