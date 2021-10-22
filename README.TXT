@@ -61,6 +61,8 @@ Installation is best done by a python developer.
 Github repository: https://github.com/dbsmit/PHYSEE_Datamatrix_generator
 
 
+wmic printer list brief
+
 ____________________________________
 ###DISCLAIMER###
 ____________________________________
