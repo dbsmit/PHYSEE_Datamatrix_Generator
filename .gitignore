@@ -144,6 +144,9 @@ notebook.py
 logs/*
 !logs/placeholder
 
+output_files
+!output_files/placeholder
+
 test_templates/
 
 .vscode/

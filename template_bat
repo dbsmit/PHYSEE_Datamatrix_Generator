@@ -1,0 +1,2 @@
+@echo off
+cmd /k "cd /d [Path to application]\venv\Scripts & activate & cd /d    [Path to application] & python script.py --toinkscape [options][args]"
