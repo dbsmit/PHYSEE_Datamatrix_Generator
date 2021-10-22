@@ -144,3 +144,5 @@ notebook.py
 logs/*
 
 test_templates/
+
+.vscode/
