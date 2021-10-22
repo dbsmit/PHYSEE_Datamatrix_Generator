@@ -2656,3 +2656,22 @@ ErrorCode:AuthenticationFailed
  ### Script starts ### 
 
 
+2021-10-22 12:47:03,592 - __main__ - INFO - 
+
+ ### Script starts ### 
+
+
+2021-10-22 12:47:03,594 - __main__ - INFO - 
+
+### TEST mode is enabled. Last code will be retrieved from and updated to test key in azure, not production. DO NOT USE THIS OUTPUT FOR PRODUCTION PURPOSES. ### 
+
+
+2021-10-22 12:47:03,605 - root - INFO - Number of datamatrices to be generated: 30
+2021-10-22 12:47:05,088 - modules.azure_table_handler - INFO - Azure Table Service Entity Retrieved {'PartitionKey': 'TEST', 'RowKey': 'TEST', 'NextCode': '000056'}
+2021-10-22 12:47:05,142 - modules.azure_table_handler - INFO - Azure Table Service Update to NextCode 000086 {'date': datetime.datetime(2021, 10, 22, 10, 47, 4, tzinfo=datetime.timezone.utc), 'etag': 'W/"datetime\'2021-10-22T10%3A47%3A04.6502444Z\'"', 'version': '2019-02-02'}
+2021-10-22 12:47:05,162 - root - INFO - Output file at location C:\Users\User\OneDrive\Documents\Excelnerd\PHYSEE\Datamatrix_generator\output_files/20211022-124705_TEST_PHYSEE_SENSE_code_000056_to_000085.svg
+2021-10-22 12:47:05,325 - __main__ - INFO - 
+
+ ### Script ends ### 
+
+
